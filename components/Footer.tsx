@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <span className="font-bold text-xl text-slate-800">OpenPaddle</span>
           </div>
           <div className="flex items-center space-x-6">
-            <a href="https://github.com/open-paddle-project/hub" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-teal-500 transition-colors">
+            <a href="https://github.com/ebanux/openpaddle" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-teal-500 transition-colors">
               <span className="sr-only">GitHub</span>
               <GitHubIcon />
             </a>

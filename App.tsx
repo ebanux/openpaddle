@@ -209,10 +209,10 @@ const App: React.FC = () => {
                             <div className="flex items-center justify-center gap-3 mb-2"><ParticipateIcon /><h3 className="text-2xl font-bold text-white">How to Participate</h3></div>
                             <p className="text-slate-400 max-w-2xl mx-auto">Use GitHub to vote, comment, and contribute directly to the design. This is your paddle—help us build it right.</p>
                             <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
-                                <a href="https://github.com/open-paddle-project/hub/discussions" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-teal-500 text-white font-semibold rounded-lg shadow-md hover:bg-teal-600 transition-colors duration-300">
+                                <a href="https://github.com/ebanux/openpaddle/discussions" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-teal-500 text-white font-semibold rounded-lg shadow-md hover:bg-teal-600 transition-colors duration-300">
                                     Vote in Discussions
                                 </a>
-                                <a href="https://github.com/open-paddle-project/hub/tree/main/docs/specs" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-slate-700 text-white font-semibold rounded-lg hover:bg-slate-600 transition-colors duration-300">
+                                <a href="https://github.com/ebanux/openpaddle/tree/main/docs" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-slate-700 text-white font-semibold rounded-lg hover:bg-slate-600 transition-colors duration-300">
                                     Submit a PR to Specs
                                 </a>
                             </div>
@@ -418,10 +418,10 @@ const App: React.FC = () => {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="https://github.com/open-paddle-project/hub" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 bg-slate-800 text-white font-semibold rounded-lg shadow-md hover:bg-slate-900 transition-colors duration-300">
+                    <a href="https://github.com/ebanux/openpaddle" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 bg-slate-800 text-white font-semibold rounded-lg shadow-md hover:bg-slate-900 transition-colors duration-300">
                         <GitHubIcon /> <span className="ml-2">Explore on GitHub</span>
                     </a>
-                    <a href="https://open-paddle-project.github.io/docs" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 bg-white text-teal-500 font-semibold rounded-lg border border-slate-200 hover:bg-slate-100 transition-colors duration-300">
+                    <a href="https://ebanux.github.io/openpaddle/docs/intro" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 bg-white text-teal-500 font-semibold rounded-lg border border-slate-200 hover:bg-slate-100 transition-colors duration-300">
                         <BookOpenIcon /> <span className="ml-2">Read the Docs</span>
                     </a>
                 </div>
