@@ -1,73 +1,71 @@
-# MonetizePro: A Monetization Showcase Application
+# OpenPaddle
 
-This project is a high-fidelity, interactive prototype designed to demonstrate a wide array of monetization models in a single, cohesive application. It serves as a showcase for advanced UI/UX patterns, complex state management in React, and integration with third-party services like Stripe.js and the Google Gemini API.
+This is the repository for the **OpenPaddle** project, a community-designed, transparently-built pickleball paddle. The goal is to make great gear accessible without inflated margins, proving open-source principles can work for physical products.
 
-The application is built as a single-page React application using TypeScript, with a focus on a clean, component-based architecture and a great developer experience.
+**Visit the live site: [https://ebanux.github.io/openpaddle/](https://ebanux.github.io/openpaddle/)**
 
----
+This project is built with [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## 🚀 Key Features
+## 🚀 Local Development
 
-This application is packed with features that simulate a real-world SaaS product for creating payment pages.
+To get started with local development:
 
-*   **Multi-Use-Case Platform:** Supports a wide variety of monetization strategies:
-    *   Fundraising & Donations
-    *   Product Sales (Physical & Digital)
-    *   Subscriptions & Recurring Rentals
-    *   Timed Rentals (e.g., equipment)
-    *   Parking Sessions
-    *   ...and many more.
+1.  **Clone the repository:**
 
-*   **Powerful Two-Panel Editor:** A side-by-side view with a configuration panel on the left and a live, responsive mobile preview on the right.
+    ```bash
+    git clone https://github.com/ebanux/openpaddle.git
+    cd openpaddle
+    ```
 
-*   **Wizard-Style Configuration:** Both the editor and the preview use a synchronized wizard stepper (`Page` -> `Checkout` -> `After Payment`, with a `Portal` step for subscriptions) for an intuitive and guided user experience.
+2.  **Install dependencies:**
 
-*   **Template-Driven Workflow:** Users can kickstart projects by selecting from a rich library of pre-configured templates for both primary pages and post-payment experiences.
+    ```bash
+    npm install
+    ```
 
-*   **Dynamic, Schema-Driven Forms:** The UI for editing page configurations is generated dynamically from a JSON schema, making the application highly extensible and maintainable.
+3.  **Start the development server:**
+    ```bash
+    npm run start
+    ```
 
-*   **AI-Assisted Content Generation:** Leverages the **Google Gemini API** to help users generate text content (like titles and descriptions) and placeholder images directly within the editor.
+This command starts a local development server and opens up a browser window at `http://localhost:3000`. Most changes are reflected live without having to restart the server.
 
-*   **Simulated Stripe Payments:** Integrates the Stripe.js React library to provide a realistic, secure checkout modal for simulating card payments.
+## 📦 Building for Production
 
-*   **Customizable Customer Portal:** A simulated, brandable customer portal is available for subscription-based models, allowing end-users to manage their (mock) subscriptions and view payment history.
+To generate a static production build of the site:
 
-*   **Advanced Sharing & Publishing:**
-    *   Generates clean, path-based URLs with user subdomains (e.g., `https://alice.a-qr.link/my-fundraiser`).
-    *   Automatically creates QR codes for both page and session URLs.
-    *   Supports QR code downloads and native web sharing on compatible devices.
-
-For a detailed list of all implemented features and a roadmap for future development, please see the [**CHANGELOG.md**](CHANGELOG.md).
-
----
-
-## 🛠️ Technology Stack
-
-*   **Frontend Framework:** [React](https://react.dev/)
-*   **Language:** [TypeScript](https://www.typescriptlang.org/)
-*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-*   **Payment Simulation:** [Stripe.js](https://stripe.com/docs/js) & [@stripe/react-stripe-js](https://github.com/stripe/react-stripe-js)
-*   **AI Integration:** [Google Gemini API](https://ai.google.dev/) via the `@google/genai` SDK.
-*   **Module System:** ES Modules with an `importmap` in `index.html` for dependency management without a build step.
-
----
-
-## 📂 Project Structure
-
-The project is organized to separate concerns, making it easier to navigate and extend.
-
+```bash
+npm run build
 ```
-/
-├── components/           # Reusable React components (forms, modals, layout, etc.)
-├── pages/                # Top-level page components for each use case and the after-payment displays.
-├── CHANGELOG.md          # Tracks implemented and future features.
-├── README.md             # This file.
-├── App.tsx               # The main application component, handling state and logic.
-├── constants.ts          # Mock data, theme definitions, and application-wide constants.
-├── index.html            # The main HTML entry point.
-├── index.tsx             # The React application root.
-├── metadata.json         # Project metadata.
-├── schemas.ts            # JSON schema definitions for all dynamic forms.
-├── templates.ts          # All pre-configured page and after-payment templates.
-└── types.ts              # Core TypeScript type and interface definitions.
+
+The static files will be placed in the `build/` directory.
+
+## 🚢 Deployment to GitHub Pages
+
+This repository is configured for easy deployment to GitHub Pages.
+
+### Prerequisites
+
+- You must have push access to the `ebanux/openpaddle` repository.
+- Your local Git client must be configured with your GitHub credentials.
+
+### How to Deploy
+
+To deploy the website, run the following single command from your local project directory:
+
+```bash
+npm run deploy
 ```
+
+This command will automatically build the site and push the contents of the `build` directory to the `gh-pages` branch on the remote repository.
+
+### GitHub Repository Configuration
+
+For the deployed site to be visible, the GitHub repository's **Pages** settings must be configured correctly:
+
+1.  Go to the repository's **Settings** tab on GitHub.
+2.  In the left sidebar, click on **Pages**.
+3.  Under "Build and deployment", set the **Source** to **Deploy from a branch**.
+4.  Under **Branch**, select `gh-pages` and `/ (root)` for the folder, then save.
+
+After a successful deployment, the site will be updated at [https://ebanux.github.io/openpaddle/](https://ebanux.github.io/openpaddle/). It may take a few minutes for changes to go live.
