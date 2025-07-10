@@ -1,6 +1,6 @@
 
 import React, { useState, useCallback, useEffect } from 'react';
-import { BasePageLinkConfig, PageStyle, CustomerPortalConfig, EditorTab, PreviewStep, ThemeDefinition, AdminDashboardData, MonetizationUseCase, StripeLineItem, AfterPaymentTemplate } from '../../types';
+import { BasePageLinkConfig, PageStyle, CustomerPortalConfig, EditorTab, PreviewStep, ThemeDefinition, AdminDashboardData, MonetizationUseCase, StripeLineItem, AfterPaymentTemplate } from '../types';
 import EditorPanel from '../components/editor/EditorPanel';
 import PreviewPanel from '../components/editor/PreviewPanel';
 
