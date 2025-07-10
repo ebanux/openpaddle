@@ -1,0 +1,42 @@
+
+{
+  "howItWorksPage": {
+    "title": "How It Works",
+    "step1": {
+      "title": "1. Create & Customize Your Page",
+      "description": [
+        "Bring your idea to life in minutes. Start by choosing from dozens of pre-built templates tailored to your specific goal—whether it's selling a product, running a fundraiser, or booking appointments. Our intuitive no-code editor gives you full control.",
+        "- **Customize Everything:** Change text, upload your own logo, and select a theme that perfectly matches your brand identity.",
+        "- **Set Your Price:** Configure one-time payments, recurring subscriptions, or even let your customers name their own price for donations.",
+        "- **Add Custom Fields:** Need to collect a T-shirt size, an attendee's name, or special instructions? Easily add custom fields to your checkout form."
+      ]
+    },
+    "step2": {
+      "title": "2. Get Paid Securely with Stripe",
+      "description": [
+        "Payments are processed through Stripe's world-class, secure infrastructure, giving your customers peace of mind. We don't hold your funds—they go directly to your connected Stripe account.",
+        "- **Global Payments:** Accept payments from anyone, anywhere, in over 135 currencies.",
+        "- **Multiple Methods:** Offer credit cards, Apple Pay, Google Pay, and local payment methods like iDEAL or Bancontact automatically.",
+        "- **Customizable Checkout:** Configure tax collection, shipping rates, and promotion codes to fit your business needs."
+      ]
+    },
+    "step3": {
+      "title": "3. Share Your Link or QR Code",
+      "description": [
+        "Once your page is ready, we generate a unique, shareable link and a scannable QR code. Sharing is the key to reaching your audience.",
+        "- **One Link, Many Places:** Post it on social media, add it to your link-in-bio, send it in an email, or print it on flyers and posters.",
+        "- **Pay by Text:** For ultimate convenience, customers can text a short, unique code to your number to receive a direct link to your payment page.",
+        "- **Mobile First:** Every page is perfectly responsive, ensuring a flawless experience whether your customer is on a desktop or a smartphone."
+      ]
+    },
+    "step4": {
+      "title": "4. Verify with Authenticity Layer (Simulated)",
+      "description": [
+        "For claimable items like tickets or access passes, our platform generates a unique cryptographic proof of authenticity for each purchase. This adds a layer of security and trust for both you and your customers.",
+        "- **Secure & Unique:** Each session gets a unique access code and a corresponding SHA-256 hash.",
+        "- **Publicly Verifiable:** These proofs are batched and anchored to a (simulated) blockchain Merkle Root. Anyone can use the access code to publicly verify the item's authenticity and status.",
+        "- **Prevent Fraud:** The system tracks the status of each item (e.g., 'Paid', 'Redeemed', 'Revoked'), preventing duplicate use and ensuring each code is valid."
+      ]
+    }
+  }
+}

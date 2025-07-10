@@ -1,0 +1,70 @@
+{
+  "forms": {
+    "common": { "pageSlug": { "title": "Ruta de URL de la Página (Slug)", "description": "La ruta única para la URL de tu página (ej. 'mi-recaudacion'). Usa solo letras, números y guiones." }, "positiveNumericAmount": { "title": "Cantidad", "description": "Introduce una cantidad numérica positiva." }, "tipDetails": { "title": "Detalles de la Propina", "description": "Detalles sobre la propina.", "properties": { "tipType": { "description": "El tipo de propina (porcentaje, personalizada o ninguna)." }, "selectedTipPercentage": { "description": "El porcentaje de propina seleccionado." }, "customTipAmount": { "description": "La cantidad de propina personalizada." } } }, "simpleArrayPlaceholder": "Introduce un {{type}}", "selectPlaceholder": "Selecciona {{field}}" },
+    "advancedOptions": { "lineItems": { "title": "Líneas de Pedido", "description": "Define líneas de pedido específicas para esta página, como diferentes tipos de entradas o variantes de productos." }, "headerImage": { "title": "URL de Imagen de Cabecera", "description": "URL para una imagen de banner en la parte superior." }, "pageDescription": { "title": "Descripción de la Página (General)", "description": "Descripción general que se muestra en la página de pago." }, "limitPayments": { "title": "Limitar Número de Pagos", "description": "Habilita para limitar cuántas veces se puede usar este enlace de pago." }, "maxPayments": { "title": "Máximo de Pagos (si está limitado)", "description": "Número total de pagos exitosos." }, "messageAfterLimit": { "title": "Mensaje Después del Límite", "description": "Mensaje que se muestra si se alcanza el límite de pagos." } },
+    "afterPaymentConfig": {
+      "title": "Configuración Post-Pago", "description": "Configura qué sucede después de un pago exitoso.",
+      "properties": {
+        "afterPaymentBehavior": { "title": "Comportamiento Post-Pago", "description": "Elige qué mostrar al usuario después de que pague." },
+        "redirectUrl": { "title": "URL de Redirección", "description": "La URL a la que redirigir. Usa {CHECKOUT_SESSION_ID} para el ID de la sesión." },
+        "enableSessionPage": { "title": "Habilitar Página de Sesión Segura", "description": "Da al cliente un enlace único y verificable a una página post-pago (ej. para entradas)." }
+      }
+    },
+    "product": { "title": "Editar Configuración de Página de Producto", "details": { "title": "Detalles Adicionales (Lista de textos)", "description": "Introduce cada detalle como un elemento separado." } },
+    "fundraising": { "title": "Editar Configuración de Página de Recaudación", "campaignTitle": { "title": "Título de la Campaña" }, "campaignDesc": { "title": "Descripción de la Campaña (Específica)" }, "amounts": { "title": "Cantidades Predeterminadas (Lista de números)", "description": "Introduce cada cantidad como un elemento." }, "whyPoints": { "title": "Puntos de Por Qué Donar (Lista de textos)", "description": "Introduce cada punto como un elemento." } },
+    "subscription": { "title": "Editar Configuración de Página de Suscripción", "pageTitle": { "title": "Título de la Página" }, "pageDesc": { "title": "Descripción de la Página" } },
+    "rental": { "title": "Editar Configuración de Página de Alquiler por Tiempo", "pageTitle": { "title": "Título de la Página" }, "pageDesc": { "title": "Descripción de la Página" } },
+    "parking": { "title": "Editar Configuración de Página de Estacionamiento", "pageTitle": { "title": "Título de la Página" }, "locationName": { "title": "Nombre de la Ubicación" }, "zoneId": { "title": "ID / Número de Zona" }, "operator": { "title": "Nombre del Operador (Opcional)" }, "address": { "title": "Dirección de la Ubicación (Opcional)" }, "infoPoints": { "title": "Puntos de Información (Lista de textos)" } },
+    "restaurant": { "title": "Editar Configuración de Cuenta de Restaurante", "pageTitle": { "title": "Título de la Página" }, "taxRate": { "title": "Tasa de Impuesto Predeterminada (ej. 0.08 para 8%)" }, "tipPercentages": { "title": "Porcentajes de Propina (Lista de números, ej. 0.1, 0.15)" } },
+    "tips": { "title": "Editar Configuración de Página de Propinas", "pageTitle": { "title": "Título de la Página" }, "amounts": { "title": "Cantidades de Propina Predeterminadas" }, "whyText": { "title": "Texto sobre por qué dar propina" } },
+    "event": { "title": "Editar Configuración de Venta de Entradas", "eventTitle": { "title": "Título del Evento" }, "eventDesc": { "title": "Descripción del Evento" }, "date": { "title": "Fecha del Evento (AAAA-MM-DD)" }, "time": { "title": "Hora del Evento (HH:MM, 24-h)" }, "location": { "title": "Ubicación del Evento" }, "organizer": { "title": "Nombre del Organizador (Opcional)" }, "contact": { "title": "Email de Contacto (Opcional)" } },
+    "appointment": { "title": "Editar Configuración de Reserva de Citas", "serviceTitle": { "title": "Título del Servicio" }, "serviceDesc": { "title": "Descripción del Servicio" }, "provider": { "title": "Nombre del Proveedor (Opcional)" }, "contact": { "title": "Información de Contacto (Opcional)" }, "availability": { "title": "Notas de Disponibilidad/Programación (Opcional)" } },
+    "digital": { "title": "Editar Configuración de Acceso a Contenido Digital", "contentTitle": { "title": "Título del Contenido" }, "contentDesc": { "title": "Descripción del Contenido" }, "assetId": { "title": "Enlazar a Activo Digital", "description": "Selecciona un activo previamente subido de tu biblioteca." }, "instructions": { "title": "Instrucciones de Acceso (Post-Pago)", "description": "Ej: 'El enlace de descarga se mostrará después del pago exitoso.'" }, "creator": { "title": "Nombre del Creador (Opcional)" } },
+    "invoice": { "title": "Editar Configuración de Factura Simple", "requestTitle": { "title": "Título de la Solicitud / Factura Para" }, "yourName": { "title": "Tu Nombre / Nombre de Empresa (Opcional)" }, "clientName": { "title": "Nombre del Cliente (Opcional)" }, "itemDesc": { "title": "Descripción del Servicio/Artículo" }, "dueDate": { "title": "Fecha de Vencimiento (AAAA-MM-DD, Opcional)" }, "notes": { "title": "Notas Adicionales (Opcional)" }, "invoiceNumber": { "title": "Número de Factura (Opcional)" } },
+    "admin": {
+      "product": { "title": "Producto", "active": "Activo", "name": "Nombre", "description": "Descripción", "images": "URLs de Imagen", "metadata": "Metadatos (JSON)" },
+      "price": { "title": "Precio", "product": "ID del Producto", "active": "Activo", "amount": "Monto unitario (céntimos)", "currency": "Moneda", "type": "Tipo", "recurring": "Detalles Recurrentes", "interval": "Intervalo", "intervalCount": "Conteo de Intervalos" },
+      "coupon": { "title": "Cupón", "code": "Código del Cupón (ID)", "codeDesc": "El código que introducen los clientes.", "name": "Nombre Interno (Opcional)", "percent": "Porcentaje de Descuento (%)", "amount": "Monto de Descuento (céntimos)", "currency": "Moneda (si es Monto)", "active": "Activo" },
+      "tax": { "title": "Tasa de Impuesto", "name": "Nombre para Mostrar", "percent": "Porcentaje", "inclusive": "Inclusivo", "desc": "Descripción (Opcional)", "jurisdiction": "Jurisdicción (Opcional)", "country": "País (Opcional, ISO de 2 letras)", "state": "Estado (Opcional, ISO de 2 letras para EE.UU.)", "active": "Activo" },
+      "shipping": { "title": "Tarifa de Envío", "name": "Nombre para Mostrar", "active": "Activo", "amount": "Monto (céntimos)", "currency": "Moneda", "minVal": "Estimación Mín. de Entrega (Valor)", "minUnit": "Estimación Mín. de Entrega (Unidad)", "maxVal": "Estimación Máx. de Entrega (Valor)", "maxUnit": "Estimación Máx. de Entrega (Unidad)" },
+      "customer": { "title": "Cliente", "name": "Nombre", "email": "Email", "phone": "Teléfono (Opcional)" },
+      "subscription": { "title": "Suscripción", "customer": "ID de Cliente", "status": "Estado", "items": "Artículos", "priceId": "ID de Precio" },
+      "transaction": { "title": "Transacción", "customer": "ID de Cliente (Opcional)", "amount": "Monto (céntimos)", "currency": "Moneda", "status": "Estado", "desc": "Descripción", "pageId": "ID de Página de Monetización (Opcional)" },
+      "email": { "title": "Plantilla de Correo", "enabled": "Habilitar esta Automatización de Correo", "name": "Nombre Interno", "triggerPage": "Página de Activación", "triggerPageDesc": "¿Qué página debería activar este correo?", "triggerStatus": "Estado de Activación", "triggerStatusDesc": "Enviar este correo cuando el estado de una sesión cambie a esto.", "subject": "Asunto del Correo", "subjectDesc": "Admite variables como {{page_name}}.", "body": "Cuerpo del Correo", "bodyDesc": "Admite variables como {{page_name}}, {{session_link}}." },
+      "digitalAsset": { "title": "Activo Digital", "name": "Nombre del Activo", "desc": "Descripción (Opcional)", "fileUrl": "Subir Archivo", "fileName": "Nombre del Archivo", "fileType": "Tipo de Archivo", "fileSize": "Tamaño (KB)" }
+    },
+    "stripe": {
+      "productData": { "title": "Detalles del Producto", "properties": { "name": { "title": "Nombre" }, "description": { "title": "Descripción" }, "images": { "title": "URLs de Imagen" }, "metadata": { "title": "Metadatos (JSON)" } } },
+      "recurringPriceData": { "title": "Detalles de Precio Recurrente", "properties": { "interval": { "title": "Intervalo" }, "interval_count": { "title": "Conteo de Intervalos" } } },
+      "customUnitAmount": { "title": "Monto Unitario Personalizado", "properties": { "enabled": { "title": "Habilitado" }, "minimum_amount": { "title": "Monto Mínimo (céntimos)" }, "maximum_amount": { "title": "Monto Máximo (céntimos)" }, "preset_amounts": { "title": "Montos Predefinidos (céntimos)" } } },
+      "priceData": { "title": "Detalles del Precio", "properties": { "currency": { "title": "Moneda" }, "unit_amount": { "title": "Monto Unitario (céntimos)" } } },
+      "lineItem": {
+        "title": "Línea de Pedido",
+        "properties": {
+          "id": { "title": "ID Interno (Opcional)", "description": "Un identificador interno único para esta línea de pedido, para tu propia referencia. No es obligatorio." },
+          "price": { "title": "ID de Precio de Stripe (Opcional)", "description": "Usar si este artículo corresponde a un Precio de Stripe existente." },
+          "quantity": { "title": "Cantidad Predeterminada" }
+        },
+        "description": "Representa un artículo en un pedido."
+      },
+      "adjustableQuantity": { "title": "Cantidad Ajustable", "properties": { "enabled": { "title": "Permitir que el cliente ajuste la cantidad" }, "minimum": { "title": "Cantidad Mínima" }, "maximum": { "title": "Cantidad Máxima" } } }
+    },
+    "checkoutConfig": {
+      "currency": { "title": "Código de Moneda" },
+      "submitType": { "title": "Etiqueta del Botón de Envío", "description": "Etiqueta en el botón principal de llamada a la acción." },
+      "customFields": { "title": "Campos de Checkout Personalizados", "description": "Define campos personalizados para recopilar información adicional." },
+      "billingAddress": { "title": "Recopilar Dirección de Facturación", "description": "'required' siempre recopila la dirección. 'auto' la recopila cuando es necesario." },
+      "shippingAddress": { "title": "Recopilar Dirección de Envío", "description": "Habilita para recopilar la dirección de envío." },
+      "allowedCountries": { "title": "Países de Envío Permitidos (códigos ISO)", "description": "ej. US, CA, GB. Dejar vacío para todos." },
+      "phone": { "title": "Requerir Número de Teléfono", "description": "Recopila el número de teléfono del cliente." },
+      "promoCodes": { "title": "Permitir Códigos de Promoción", "description": "Permite a los clientes usar códigos de promoción." },
+      "taxId": { "title": "Permitir Recopilación de NIF de Empresa", "description": "Habilita para recopilar NIF de clientes empresariales." },
+      "taxRates": { "title": "Tasas de Impuestos Aplicables", "description": "Selecciona qué tasas de impuestos preconfiguradas se aplican." },
+      "shippingRates": { "title": "Opciones de Envío Disponibles", "description": "Selecciona qué tarifas de envío preconfiguradas estarán disponibles." },
+      "autoTax": { "title": "Habilitar Recopilación Automática de Impuestos", "description": "Indica si se debe usar Stripe Tax." },
+      "terms": { "title": "Aceptación de Términos de Servicio", "description": "Elige si los clientes deben aceptar los términos de servicio." },
+      "termsUrl": { "title": "URL de Términos de Servicio (si es requerido)", "description": "URL a tu documento de términos de servicio." },
+      "savePayment": { "title": "Guardar Detalles de Pago para Uso Futuro", "description": "Intenta guardar el método de pago del cliente." }
+    }
+  }
+}

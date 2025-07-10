@@ -1,0 +1,89 @@
+{
+  "forms": {
+    "common": {
+      "pageSlug": { "title": "Page URL Path (Slug)", "description": "The unique path for your page URL (e.g., 'my-fundraiser'). Use letters, numbers, and hyphens only." },
+      "positiveNumericAmount": { "title": "Amount", "description": "Enter a positive numeric amount." },
+      "tipDetails": { "title": "Tip Details", "description": "Details about the tip.", "properties": { "tipType": { "description": "The type of tip (percentage, custom, or none)." }, "selectedTipPercentage": { "description": "The selected tip percentage." }, "customTipAmount": { "description": "The custom tip amount." } } },
+      "simpleArrayPlaceholder": "Enter a {{type}}",
+      "selectPlaceholder": "Select {{field}}"
+    },
+    "advancedOptions": {
+      "lineItems": { "title": "Line Items", "description": "Define specific line items for this page, like different ticket types or product variants." },
+      "headerImage": { "title": "Header Image URL", "description": "URL for a banner image at the top of the page." },
+      "pageDescription": { "title": "Page Description (General)", "description": "General description shown on the payment page." },
+      "limitPayments": { "title": "Limit Number of Payments", "description": "Enable to limit how many times this payment link can be used." },
+      "maxPayments": { "title": "Max Payments (if limit enabled)", "description": "Total number of successful payments." },
+      "messageAfterLimit": { "title": "Message After Limit", "description": "Message displayed if payment limit is reached." }
+    },
+    "afterPaymentConfig": {
+      "title": "After Payment Configuration", "description": "Configure what happens after a successful payment.",
+      "properties": {
+        "afterPaymentBehavior": { "title": "After Payment Behavior", "description": "Choose what to show the user after they pay." },
+        "redirectUrl": { "title": "Redirect URL", "description": "The URL to redirect to. Use {CHECKOUT_SESSION_ID} for the session ID." },
+        "enableSessionPage": { "title": "Enable Secure Session Page", "description": "Gives the customer a unique, verifiable link to a post-payment page (e.g., for tickets)." }
+      }
+    },
+    "product": {
+      "title": "Edit Product Page Config",
+      "details": { "title": "Additional Details (List of strings)", "description": "Enter each detail as a separate item." }
+    },
+    "fundraising": {
+      "title": "Edit Fundraising Page Config", "campaignTitle": { "title": "Campaign Title" }, "campaignDesc": { "title": "Campaign Description (Specific)" },
+      "amounts": { "title": "Predefined Amounts (List of numbers)", "description": "Enter each amount as a separate item." }, "whyPoints": { "title": "Why Donate Points (List of strings)", "description": "Enter each point as a separate item." }
+    },
+    "subscription": { "title": "Edit Subscription Page Config", "pageTitle": { "title": "Page Title" }, "pageDesc": { "title": "Page Description" } },
+    "rental": { "title": "Edit Timed Rental Page Config", "pageTitle": { "title": "Page Title" }, "pageDesc": { "title": "Page Description" } },
+    "parking": { "title": "Edit Parking Page Config", "pageTitle": { "title": "Page Title" }, "locationName": { "title": "Location Name" }, "zoneId": { "title": "Zone ID / Number" }, "operator": { "title": "Operator Name (Optional)" }, "address": { "title": "Location Address (Optional)" }, "infoPoints": { "title": "Information Points (List of strings)" } },
+    "restaurant": { "title": "Edit Restaurant Bill Config", "pageTitle": { "title": "Page Title" }, "taxRate": { "title": "Default Tax Rate (e.g., 0.08 for 8%)" }, "tipPercentages": { "title": "Tip Percentages (List of numbers, e.g., 0.1, 0.15)" } },
+    "tips": { "title": "Edit Tips Page Config", "pageTitle": { "title": "Page Title" }, "amounts": { "title": "Predefined Tip Amounts" }, "whyText": { "title": "Text about why to tip" } },
+    "event": { "title": "Edit Event Ticket Sales Config", "eventTitle": { "title": "Event Title" }, "eventDesc": { "title": "Event Description" }, "date": { "title": "Event Date (YYYY-MM-DD)" }, "time": { "title": "Event Time (HH:MM, 24-hr)" }, "location": { "title": "Event Location" }, "organizer": { "title": "Organizer Name (Optional)" }, "contact": { "title": "Contact Email (Optional)" } },
+    "appointment": { "title": "Edit Appointment Booking Config", "serviceTitle": { "title": "Service Title" }, "serviceDesc": { "title": "Service Description" }, "provider": { "title": "Provider Name (Optional)" }, "contact": { "title": "Contact Info (Optional)" }, "availability": { "title": "Availability/Scheduling Notes (Optional)" } },
+    "digital": { "title": "Edit Digital Content Access Config", "contentTitle": { "title": "Content Title" }, "contentDesc": { "title": "Content Description" }, "assetId": { "title": "Link to Digital Asset", "description": "Select a previously uploaded asset from your library." }, "instructions": { "title": "Access Instructions (Post-Payment)", "description": "e.g., 'Download link will be shown after successful payment.'" }, "creator": { "title": "Creator Name (Optional)" } },
+    "invoice": { "title": "Edit Simple Invoice Config", "requestTitle": { "title": "Request Title / Invoice For" }, "yourName": { "title": "Your Name / Business Name (Optional)" }, "clientName": { "title": "Client Name (Optional)" }, "itemDesc": { "title": "Description of Service/Item" }, "dueDate": { "title": "Due Date (YYYY-MM-DD, Optional)" }, "notes": { "title": "Additional Notes (Optional)" }, "invoiceNumber": { "title": "Invoice Number (Optional)" } },
+    "admin": {
+      "product": { "title": "Product", "active": "Active", "name": "Name", "description": "Description", "images": "Image URLs", "metadata": "Metadata (JSON)" },
+      "price": { "title": "Price", "product": "Product ID", "active": "Active", "amount": "Unit Amount (cents)", "currency": "Currency", "type": "Type", "recurring": "Recurring Details", "interval": "Interval", "intervalCount": "Interval Count" },
+      "coupon": { "title": "Coupon", "code": "Coupon Code (ID)", "codeDesc": "The code customers enter.", "name": "Internal Name (Optional)", "percent": "Percent Off (%)", "amount": "Amount Off (cents)", "currency": "Currency (if Amount)", "active": "Active" },
+      "tax": { "title": "Tax Rate", "name": "Display Name", "percent": "Percentage", "inclusive": "Inclusive", "desc": "Description (Optional)", "jurisdiction": "Jurisdiction (Optional)", "country": "Country (Optional, 2-letter ISO)", "state": "State (Optional, 2-letter ISO for US)", "active": "Active" },
+      "shipping": { "title": "Shipping Rate", "name": "Display Name", "active": "Active", "amount": "Amount (cents)", "currency": "Currency", "minVal": "Min Delivery Est. (Value)", "minUnit": "Min Delivery Est. (Unit)", "maxVal": "Max Delivery Est. (Value)", "maxUnit": "Max Delivery Est. (Unit)" },
+      "customer": { "title": "Customer", "name": "Name", "email": "Email", "phone": "Phone (Optional)" },
+      "subscription": { "title": "Subscription", "customer": "Customer ID", "status": "Status", "items": "Items", "priceId": "Price ID" },
+      "transaction": { "title": "Transaction", "customer": "Customer ID (Optional)", "amount": "Amount (cents)", "currency": "Currency", "status": "Status", "desc": "Description", "pageId": "Monetization Page ID (Optional)" },
+      "email": { "title": "Email Template", "enabled": "Enable this Email Automation", "name": "Internal Name", "triggerPage": "Trigger Page", "triggerPageDesc": "Which page should trigger this email?", "triggerStatus": "Trigger Status", "triggerStatusDesc": "Send this email when a session's status changes to this.", "subject": "Email Subject", "subjectDesc": "Supports variables like {{page_name}}.", "body": "Email Body", "bodyDesc": "Supports variables like {{page_name}}, {{session_link}}." },
+      "digitalAsset": { "title": "Digital Asset", "name": "Asset Name", "desc": "Description (Optional)", "fileUrl": "Upload File", "fileName": "File Name", "fileType": "File Type", "fileSize": "Size (KB)" }
+    },
+    "stripe": {
+      "productData": { "title": "Product Details", "properties": { "name": { "title": "Name" }, "description": { "title": "Description" }, "images": { "title": "Image URLs" }, "metadata": { "title": "Metadata (JSON)" } } },
+      "recurringPriceData": { "title": "Recurring Price Details", "properties": { "interval": { "title": "Interval" }, "interval_count": { "title": "Interval Count" } } },
+      "customUnitAmount": { "title": "Custom Unit Amount", "properties": { "enabled": { "title": "Enabled" }, "minimum_amount": { "title": "Minimum Amount (cents)" }, "maximum_amount": { "title": "Maximum Amount (cents)" }, "preset_amounts": { "title": "Preset Amounts (cents)" } } },
+      "priceData": { "title": "Price Details", "properties": { "currency": { "title": "Currency" }, "unit_amount": { "title": "Unit Amount (cents)" } } },
+      "lineItem": {
+        "title": "Line Item",
+        "properties": {
+          "id": { "title": "Internal ID (Optional)", "description": "A unique internal identifier for this line item, for your own reference. Not required." },
+          "price": { "title": "Stripe Price ID (Optional)", "description": "Use if this item corresponds to an existing Stripe Price." },
+          "quantity": { "title": "Default Quantity" }
+        },
+        "description": "Represents one item in an order."
+      },
+      "adjustableQuantity": { "title": "Adjustable Quantity", "properties": { "enabled": { "title": "Allow customer to adjust quantity" }, "minimum": { "title": "Minimum Quantity" }, "maximum": { "title": "Maximum Quantity" } } }
+    },
+    "checkoutConfig": {
+      "currency": { "title": "Currency Code" },
+      "submitType": { "title": "Submit Button Label", "description": "Label on the main call-to-action button." },
+      "customFields": { "title": "Custom Checkout Fields", "description": "Define custom fields to collect additional information." },
+      "billingAddress": { "title": "Collect Billing Address", "description": "'required' always collects the address. 'auto' collects it when necessary." },
+      "shippingAddress": { "title": "Collect Shipping Address", "description": "Enable to collect shipping address." },
+      "allowedCountries": { "title": "Allowed Shipping Countries (ISO codes)", "description": "e.g., US, CA, GB. Leave empty for all." },
+      "phone": { "title": "Require Phone Number", "description": "Collect customer's phone number at checkout." },
+      "promoCodes": { "title": "Allow Promotion Codes", "description": "Enable customers to use promotion codes." },
+      "taxId": { "title": "Allow Business Tax ID Collection", "description": "Enable to collect tax IDs from business customers." },
+      "taxRates": { "title": "Applicable Tax Rates", "description": "Select which pre-configured tax rates apply." },
+      "shippingRates": { "title": "Available Shipping Options", "description": "Select which pre-configured shipping rates are available." },
+      "autoTax": { "title": "Enable Automatic Tax Collection", "description": "Indicates if Stripe Tax should be used." },
+      "terms": { "title": "Terms of Service Acceptance", "description": "Choose if customers must accept terms of service." },
+      "termsUrl": { "title": "Terms of Service URL (if required)", "description": "URL to your terms of service document." },
+      "savePayment": { "title": "Save Payment Details for Future Use", "description": "Attempt to save the customer's payment method." }
+    }
+  }
+}

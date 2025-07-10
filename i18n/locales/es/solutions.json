@@ -1,0 +1,115 @@
+
+{
+  "solutionEventTickets": {
+    "title": "Solución: Venta de Entradas",
+    "hero": {
+      "title": "Organiza eventos y vende entradas como un profesional.",
+      "description": "Crea, comparte y valida entradas con el checkout de Stripe y páginas de sesión inteligentes. Tus asistentes obtienen una experiencia fluida. Tú mantienes el control. Sin software complejo, sin necesidad de una app.",
+      "cta": "Crear Página de Entradas"
+    },
+    "flow": {
+      "title": "Un Flujo Simple Desde la Creación a la Validación",
+      "steps": [
+        { "title": "Crea la página de tu evento", "description": "Elige el título, descripción, precio y límite de entradas. Opcionalmente, pre-genera entradas únicas para invitaciones o pegatinas QR físicas." },
+        { "title": "Comparte tu enlace o código QR", "description": "Tu audiencia puede comprar entradas desde un enlace amigable para móviles. Funciona genial por email, WhatsApp, Instagram o folletos QR impresos." },
+        { "title": "Stripe gestiona el pago", "description": "Usa Stripe Checkout para procesar pagos de forma segura. Los asistentes reciben una confirmación y son redirigidos a su Página de Sesión de la Entrada." },
+        { "title": "Valida fácilmente en la puerta", "description": "Escanea el código QR del asistente o pulsa 'Marcar como Usado' y la entrada se canjea, evitando su reutilización con actualizaciones de estado seguras." }
+      ]
+    },
+    "features": {
+      "title": "Funcionalidades Avanzadas, Simplificadas",
+      "items": {
+        "preGenerated": { "title": "Entradas Pre-generadas", "description": "Crea códigos de entrada individuales por adelantado. Útil para ventas privadas, patrocinadores o distribución en persona." },
+        "status": { "title": "Estado de Sesión Inteligente", "description": "Cada entrada tiene un estado (borrador, pagado, canjeado, expirado) para que siempre sepas su condición." },
+        "customFields": { "title": "Campos Personalizados", "description": "Recopila información extra de los asistentes, como su nombre o talla de camiseta, directamente en el checkout." },
+        "multiChannel": { "title": "Soporte Multicanal", "description": "Usa tus enlaces de entradas en cualquier lugar. Comparte por QR, link-in-bio, texto o correo electrónico." },
+        "testMode": { "title": "Modo de Prueba", "description": "Prueba el flujo completo usando tarjetas de prueba de Stripe antes de que tu evento se ponga en marcha." },
+        "validation": { "title": "Validación de Entrada Segura", "description": "El código QR con respaldo de autenticidad asegura que cada entrada se use solo una vez." }
+      }
+    },
+    "demo": {
+      "title": "Verlo en Acción",
+      "steps": [
+        { "title": "1. Crear y Compartir", "description": "Diseña la página de tu entrada en minutos." },
+        { "title": "2. Compra Segura", "description": "Los asistentes compran entradas a través de un checkout fluido." },
+        { "title": "3. Validar Entrada", "description": "Escanea códigos QR para una validación instantánea y segura." }
+      ]
+    }
+  },
+  "solutionSubscriptions": {
+    "title": "Solución: Suscripciones",
+    "hero": {
+      "title": "Lanza Tu Negocio de Ingresos Recurrentes.",
+      "description": "Crea planes de suscripción flexibles, acepta pagos recurrentes con Stripe y ofrece a tus miembros un portal para gestionar sus cuentas. Sin código, sin complicaciones.",
+      "cta": "Crear Página de Suscripción"
+    },
+    "idealFor": {
+      "title": "Ideal Para...",
+      "items": ["Productos SaaS", "Creadores de Contenido", "Cajas de Suscripción", "Boletines", "Sitios de Membresía"]
+    },
+    "flow": {
+      "title": "Del Registro al Autoservicio",
+      "steps": [
+        { "title": "Diseña Tus Niveles de Precios", "description": "Crea múltiples planes con diferentes características y ciclos de facturación (mensual/anual) para atender a varios segmentos de clientes." },
+        { "title": "Los Clientes se Suscriben de Forma Segura", "description": "Los usuarios eligen un plan y se suscriben a través de un checkout seguro impulsado por Stripe, creando un calendario de pagos recurrentes automáticamente." },
+        { "title": "Proporciona Acceso Instantáneo", "description": "Después de suscribirse, los clientes pueden ser redirigidos a una página de bienvenida, un área de miembros o una página con instrucciones para acceder a sus beneficios." },
+        { "title": "Empodera con un Portal del Cliente", "description": "Ofrece a tus suscriptores un portal dedicado donde pueden ver su historial de pagos, gestionar su plan y actualizar sus datos de facturación." }
+      ]
+    },
+    "features": {
+      "title": "Potentes Funciones de Suscripción",
+      "items": {
+        "multiplePlans": { "title": "Múltiples Niveles y Planes", "description": "Ofrece una variedad de planes (por ejemplo, Básico, Pro, Premium) para satisfacer las necesidades y el valor del cliente." },
+        "billingCycles": { "title": "Ciclos de Facturación Flexibles", "description": "Configura la facturación mensual o anual para ofrecer descuentos por compromisos a largo plazo." },
+        "securePayments": { "title": "Pagos Recurrentes Seguros", "description": "Stripe se encarga de la complejidad de la facturación recurrente, el cumplimiento de PCI y la gestión de impagos." },
+        "customerPortal": { "title": "Portal de Autoservicio", "description": "Reduce la carga de soporte permitiendo que los clientes gestionen sus propias suscripciones e información de facturación." },
+        "promoCodes": { "title": "Códigos de Promoción", "description": "Impulsa los registros ofreciendo descuentos porcentuales o de cantidad fija en las suscripciones." },
+        "webhookReady": { "title": "Listo para Webhooks (Simulado)", "description": "Intégrate con otros servicios escuchando eventos de suscripción como `customer.subscription.created`." }
+      }
+    },
+    "demo": {
+      "title": "Verlo en Acción",
+      "steps": [
+        { "title": "1. Seleccionar un Plan", "description": "Los clientes eligen entre tus niveles." },
+        { "title": "2. Checkout Seguro", "description": "Pagos seguros impulsados por Stripe." },
+        { "title": "3. Gestionar Suscripción", "description": "Los miembros gestionan su cuenta en un portal." }
+      ]
+    }
+  },
+  "solutionParking": {
+    "title": "Solución: Estacionamiento",
+    "hero": {
+      "title": "Moderniza los Pagos de Tu Estacionamiento.",
+      "description": "Ofrece una experiencia de pago móvil fluida para cualquier estacionamiento o garaje. Los clientes pagan en segundos mediante código QR o mensaje de texto, sin necesidad de descargar una aplicación.",
+      "cta": "Crear Página de Estacionamiento"
+    },
+    "flow": {
+      "title": "Un Flujo Sencillo para Conductores",
+      "steps": [
+        { "title": "Escanear QR o Enviar Código por Texto", "description": "El conductor llega y escanea un código QR con su teléfono o envía un código corto (ej., \"PARK 123\") a tu número." },
+        { "title": "Seleccionar Duración y Pagar", "description": "Se abre una página móvil. El conductor introduce su matrícula, selecciona la duración deseada y paga de forma segura a través de Stripe." },
+        { "title": "La Sesión Comienza Inmediatamente", "description": "Tras el pago, aparece una página de sesión con un temporizador de cuenta atrás activo, que actúa como su comprobante de pago digital." },
+        { "title": "Ampliar Remotamente (Opcional)", "description": "Si está activado, los conductores pueden recibir alertas por SMS antes de que expire su sesión y ampliar su tiempo desde cualquier lugar." }
+      ]
+    },
+    "features": {
+      "title": "Funciones Diseñadas para Operadores de Estacionamiento",
+      "items": {
+        "zoneManagement": { "title": "Gestión de Zonas y Tarifas", "description": "Crea diferentes páginas para diferentes zonas (ej., Zona A, Lote 3), cada una con su propio conjunto de tarifas." },
+        "dynamicPricing": { "title": "Precios Dinámicos", "description": "Ofrece varias tarifas basadas en el tiempo (ej., 1 hora, 3 horas, Todo el día) o permite la selección de duración personalizada." },
+        "payByText": { "title": "Integración de Pago por Texto", "description": "Vincula un ID de página de 5 dígitos a tu servicio de SMS (como Twilio) para la funcionalidad de pago por texto." },
+        "serviceFees": { "title": "Tasas de Servicio", "description": "Añade opcionalmente una tasa de servicio fija a cada transacción para cubrir los costos operativos." },
+        "dashboard": { "title": "Panel de Administración en Tiempo Real", "description": "Visualiza las sesiones activas y el historial de pagos desde tu panel de administración." },
+        "noApp": { "title": "No se Requiere Aplicación", "description": "Reduce la fricción para los conductores, lo que lleva a un mayor cumplimiento y menos problemas de pago." }
+      }
+    },
+    "demo": {
+      "title": "Verlo en Acción",
+      "steps": [
+        { "title": "1. Introducir Matrícula y Seleccionar Tiempo", "description": "Los conductores interactúan con una interfaz simple y clara." },
+        { "title": "2. Pago Seguro", "description": "Pagos rápidos y seguros a través de Stripe." },
+        { "title": "3. Temporizador de Sesión Activo", "description": "Una cuenta atrás en vivo actúa como prueba de pago digital." }
+      ]
+    }
+  }
+}
