@@ -67,12 +67,15 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         
         if (translatedValue === undefined) {
           console.warn(`Translation key "${key}" not found.`);
-          return key; // Return the key if no translation is found at all
+          return options?.returnObjects ? [] : key; // Return empty array for object requests
         }
 
         // If we want the object/array itself (e.g., for mapping features)
         if (options?.returnObjects === true) {
-            return translatedValue;
+            if (Array.isArray(translatedValue) || typeof translatedValue === 'object') {
+                return translatedValue;
+            }
+            return [translatedValue];
         }
 
         let finalString = typeof translatedValue === 'string' ? translatedValue : key;
