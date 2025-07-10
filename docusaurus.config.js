@@ -1,4 +1,3 @@
-
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
 
@@ -8,11 +7,11 @@ const config = {
   tagline: 'The People\'s Pickleball Paddle',
   favicon: 'img/logo.svg',
 
-  url: 'https://open-paddle-project.github.io',
-  baseUrl: '/',
+  url: 'https://ebanux.github.io',
+  baseUrl: '/openpaddle/',
 
-  organizationName: 'open-paddle-project',
-  projectName: 'hub',
+  organizationName: 'ebanux',
+  projectName: 'openpaddle',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,7 +40,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/open-paddle-project/hub/tree/main/',
+          editUrl: 'https://github.com/ebanux/openpaddle/tree/main/',
         },
         blog: false, // disabling blog
         theme: {
@@ -70,7 +69,7 @@ const config = {
           {to: '/#why', label: 'Why It Matters', position: 'left'},
           {to: '/#process', label: 'Process', position: 'left'},
           {
-            href: 'https://github.com/open-paddle-project/hub',
+            href: 'https://github.com/ebanux/openpaddle',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'GitHub Discussions',
-                href: 'https://github.com/open-paddle-project/hub/discussions',
+                href: 'https://github.com/ebanux/openpaddle/discussions',
               },
               {
                 label: 'Twitter / X',
@@ -106,7 +105,7 @@ const config = {
             items: [
               {
                 label: 'Project GitHub',
-                href: 'https://github.com/open-paddle-project/hub',
+                href: 'https://github.com/ebanux/openpaddle',
               },
             ],
           },

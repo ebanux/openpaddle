@@ -11,14 +11,12 @@ This project is built with [Docusaurus](https://docusaurus.io/), a modern static
 To get started with local development:
 
 1.  **Clone the repository:**
-
     ```bash
     git clone https://github.com/ebanux/openpaddle.git
     cd openpaddle
     ```
 
 2.  **Install dependencies:**
-
     ```bash
     npm install
     ```
@@ -37,7 +35,6 @@ To generate a static production build of the site:
 ```bash
 npm run build
 ```
-
 The static files will be placed in the `build/` directory.
 
 ## 🚢 Deployment to GitHub Pages

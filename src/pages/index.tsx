@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -114,7 +113,7 @@ function Homepage(): JSX.Element {
                       <a href="/docs/intro" className="inline-flex items-center justify-center px-8 py-3 bg-teal-500 text-white font-semibold rounded-lg shadow-md hover:bg-teal-600 transition-colors duration-300">
                           Read The Full Spec
                       </a>
-                      <a href="https://github.com/open-paddle-project/hub/tree/main/docs" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 bg-slate-700 text-white font-semibold rounded-lg hover:bg-slate-600 transition-colors duration-300">
+                      <a href="https://github.com/ebanux/openpaddle/tree/main/docs" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 bg-slate-700 text-white font-semibold rounded-lg hover:bg-slate-600 transition-colors duration-300">
                           Contribute on GitHub
                       </a>
                   </div>
@@ -306,7 +305,7 @@ function Homepage(): JSX.Element {
                       )}
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                      <a href="https://github.com/open-paddle-project/hub" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 bg-slate-800 text-white font-semibold rounded-lg shadow-md hover:bg-slate-900 dark:bg-slate-700 dark:hover:bg-slate-600 transition-colors duration-300">
+                      <a href="https://github.com/ebanux/openpaddle" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3 bg-slate-800 text-white font-semibold rounded-lg shadow-md hover:bg-slate-900 dark:bg-slate-700 dark:hover:bg-slate-600 transition-colors duration-300">
                           <GitHubIcon /> <span className="ml-2">Explore on GitHub</span>
                       </a>
                       <a href="/docs/intro" className="inline-flex items-center justify-center px-8 py-3 bg-white text-teal-500 font-semibold rounded-lg border border-slate-200 hover:bg-slate-100 dark:bg-slate-800 dark:text-teal-400 dark:border-slate-700 dark:hover:bg-slate-700 transition-colors duration-300">
