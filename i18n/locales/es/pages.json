@@ -1,0 +1,78 @@
+
+{
+  "claimPage": {
+    "title": "Reclama Tu Acceso",
+    "prompt": "Tienes un código de acceso para reclamar el siguiente artículo:",
+    "codeLabel": "Código de Acceso:",
+    "cta": "Reclamar Ahora"
+  },
+  "verificationPage": {
+    "title": "Verificación de Autenticidad",
+    "prompt": "Detalles para el Código de Acceso:",
+    "itemName": "Nombre del Artículo",
+    "issuer": "Emisor",
+    "issueDate": "Fecha de Emisión",
+    "status": "Estado de Verificación",
+    "sessionId": "ID de Sesión",
+    "cryptoProof": "Prueba Criptográfica",
+    "hash": "Hash de Autenticidad (SHA-256)",
+    "merkleRoot": "Raíz de Merkle (En Cadena)",
+    "viewOnExplorer": "Ver en Explorador (Simulado)",
+    "proofDescription": "El hash de autenticidad de este artículo es parte de un lote asegurado por la Raíz de Merkle en una blockchain simulada.",
+    "revokedMessage": "Este código ha sido revocado por el emisor y ya no es válido."
+  },
+  "sessionPage": {
+    "ticketTitle": "Tu Entrada para {{eventName}}",
+    "holder": "Titular: {{name}}",
+    "prompt": "Presenta este código QR en la entrada del evento.",
+    "when": "Cuándo:",
+    "where": "Dónde:",
+    "verify": "Verificar Autenticidad",
+    "redeem": "Canjear Entrada (Simular Escaneo)",
+    "parkingTitle": "Estacionamiento Activo",
+    "location": "Ubicación:",
+    "plate": "Matrícula:",
+    "timeRemaining": "Tiempo Restante",
+    "expired": "¡Expirado!",
+    "statusTitle": "Estado de la Sesión",
+    "statusMessage": "Esta sesión tiene un estado de: {{status}}",
+    "genericSuccess": "Pago Exitoso",
+    "genericPrepare": "Tu sesión se está preparando.",
+    "genericActive": "Sesión Activa",
+    "genericActiveMessage": "Tu sesión está actualmente activa.",
+    "redeemedMessage": "Esta entrada ya ha sido usada.",
+    "expiredMessage": "Esta sesión ha expirado.",
+    "cancelledMessage": "Esta sesión fue cancelada."
+  },
+  "customerPortal": {
+    "subscriptions": "Mis Suscripciones",
+    "paymentHistory": "Historial de Pagos",
+    "details": "Mis Datos",
+    "noSubscriptions": "No se encontraron suscripciones.",
+    "noHistory": "No se encontró historial de pagos.",
+    "nextBilling": "Próxima facturación el: {{date}}",
+    "canceledOn": "Cancelado el: {{date}}",
+    "updatePaymentMethod": "Actualizar Método de Pago",
+    "name": "Nombre:",
+    "email": "Email:"
+  },
+  "afterPayment": {
+    "parkingActive": {
+      "location": "Ubicación:", "zone": "Zona:", "operator": "Operador:", "plate": "Matrícula:", "phone": "Teléfono:",
+      "duration": "Duración:", "paid": "Monto Pagado:", "started": "Iniciado a las:", "ends": "El estacionamiento termina:"
+    },
+    "orderConfirmed": {
+      "title": "Confirmación de Pedido", "delivery": "Entrega Estimada:", "total": "Total del Pedido:", "details": "Detalles del Pedido:"
+    },
+    "subscriptionActive": {
+      "title": "Suscripción Activa", "subscribedTo": "Ahora estás suscrito a:", "planPrice": "Precio del Plan:",
+      "paidToday": "Monto Pagado Hoy:", "includes": "Tu Plan Incluye:", "nextBilling": "Tu próxima fecha de facturación es aproximadamente: {{date}}."
+    },
+    "eventTicket": {
+      "prompt": "Presenta este código QR en la entrada del evento para escanear.", "details": "Mostrar Detalles del Evento:", "holderInfo": "Información del Titular:"
+    },
+    "digitalContent": {
+      "title": "Tu Contenido está Listo", "downloads": "Tus Descargas", "nextSteps": "Próximos Pasos:"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+
+{
+  "nav": {
+    "features": "Features",
+    "useCases": "Use Cases",
+    "solutions": "Solutions",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "global": "Global",
+    "faq": "FAQ",
+    "eventTickets": "Event Tickets",
+    "subscriptions": "Subscriptions & Memberships",
+    "parking": "Parking Sessions"
+  },
+  "landing": {
+    "hero": {
+      "title": "Create a payment page in 60 seconds.",
+      "subtitle": "No code required.",
+      "description": "The all-in-one platform for selling products, subscriptions, tickets, and services with a simple, shareable link.",
+      "cta": "Start Building For Free"
+    },
+    "advantages": {
+      "title": "All the Power, None of the Hassle",
+      "description": "Experience a platform built for flexibility, performance, and user empowerment.",
+      "items": {
+        "flexibility": { "title": "No-Code Flexibility", "description": "Create beautiful, responsive payment pages in minutes without writing a single line of code." },
+        "mobile": { "title": "Mobile Optimization", "description": "Ensure a flawless experience on any device. Pages automatically optimize for fast loading and perfect display on all screen sizes." },
+        "logic": { "title": "Session-Aware Logic", "description": "Go beyond simple payments with smart pages for tickets, parking sessions, and timed access." },
+        "design": { "title": "Custom Designs", "description": "Tailor your landing pages to match your brand, creating a cohesive and memorable user experience with our theme editor." },
+        "performance": { "title": "High Performance", "description": "Our platform generates lean and fast pages, ensuring a quick and pleasant experience for your customers." },
+        "security": { "title": "Security & Privacy", "description": "Built on top of Stripe for world-class security. Your data and your customer's data is always protected." }
+      }
+    },
+    "templates": {
+      "title": "Diverse Page Templates, Infinite Possibilities",
+      "description": "Select a foundation and sculpt it to perfection. Our templates are the starting points for your unique vision."
+    },
+    "interactive": {
+      "title": "Explore Templates & Start Building",
+      "description": "Browse our templates, preview them live, and launch into the editor with a single click. Your monetization page is just moments away."
+    },
+    "testimonials": {
+      "title": "Loved by Creators and Entrepreneurs",
+      "quote": "\"This is a game-changer. I launched my first digital product in an afternoon without touching any code. The sandbox mode let me perfect everything before going live.\"",
+      "author": "- Alex Johnson",
+      "authorRole": "Digital Creator"
+    },
+    "pricing": {
+      "title": "Flexible Pricing for Every Creator",
+      "description": "Choose the path that works for you. Start fast with no commitments, or onboard with Stripe for our lowest rates and full control.",
+      "quickStart": {
+        "title": "Quick Start", "description": "For fast projects & testing", "fee": "0.75% + 15¢", "perTransaction": "per transaction",
+        "features": [ "No Stripe account needed to start", "Payouts via Payoneer / Wise", "Platform handles support & risk", "Transaction limits apply ($1k/txn)" ],
+        "cta": "Get Started"
+      },
+      "stripeConnect": {
+        "title": "Stripe Connect", "recommended": "RECOMMENDED", "description": "For businesses & professionals", "fee": "0.50% + 10¢", "perTransaction": "per transaction",
+        "features": [ "Lowest platform fees", "Your branding on checkout", "You control refunds & disputes", "Unlimited transaction volume" ],
+        "cta": "Start with Stripe"
+      },
+      "footnote": "All options are subject to standard Stripe processing fees, which are handled separately by Stripe."
+    },
+    "global": {
+      "title": "Go Global, Instantly",
+      "description": "Our solution is global-ready out of the box. Accept payments in 135+ currencies, display pages in 34+ languages, and support regional payment methods like Alipay, iDEAL, and Klarna—all powered by Stripe.",
+      "currencies": { "title": "135+ Currencies", "description": "List prices in your customer's native currency to increase sales and avoid confusion. We support everything from USD and EUR to JPY and INR." },
+      "languages": { "title": "34+ Languages", "description": "Checkout pages automatically detect and display in the user's browser language, building trust and improving conversion." },
+      "methods": { "title": "Local Payment Methods", "description": "Offer preferred local payment options like iDEAL in the Netherlands, Bancontact in Belgium, or Pix in Brazil, all through a single integration." }
+    },
+    "faq": {
+      "title": "Got Questions? We've Got Answers.",
+      "items": [
+        { "q": "How do payouts work?", "a": "We offer two flexible options. For a quick start, you can provide your Payoneer or Wise details for manual payouts (higher fees apply). For lower fees and direct payouts, you can onboard with Stripe Connect. This links your own Stripe account to the platform, giving you full control over your funds, refunds, and disputes. You can start with the quick option and upgrade anytime." },
+        { "q": "Do I need a Stripe account to use this?", "a": "Not to get started! You can use our 'Quick Start' option without any Stripe account. To get lower fees and direct payouts, you will need to connect your own Stripe account, which is a simple and secure process within our dashboard." },
+        { "q": "What happens if I don't register an account?", "a": "You can use the app fully in 'Guest Mode' (equivalent to our Quick Start tier with stricter limits). Any pages you create will be stored in your browser's local storage. This is perfect for testing, but to save your work permanently and access full features, you'll need to create a free account." },
+        { "q": "Can I sell physical goods that require shipping?", "a": "Yes. The platform supports collecting shipping addresses. While it's optimized for digital goods and services, you can absolutely use it for physical products." }
+      ]
+    },
+    "footer": {
+      "solutions": "Solutions", "resources": "Resources", "company": "Company", "contact": "Contact Us", "privacy": "Privacy Policy",
+      "terms": "Terms of Service", "productName": "MonetizePro", "productDescription": "Create payment pages with no code. Secure, fast, and flexible.",
+      "copyright": "© {{year}} MonetizePro. All Rights Reserved."
+    }
+  }
+}

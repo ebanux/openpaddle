@@ -1,0 +1,350 @@
+
+{
+  "common": {
+    "getStartedFree": "Get Started Free",
+    "createThisPage": "Create This Page →",
+    "goBack": "Go Back",
+    "no": "No",
+    "yes": "Yes",
+    "login": "Login",
+    "logout": "Logout",
+    "save": "Save",
+    "cancel": "Cancel",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "publish": "Publish",
+    "share": "Share",
+    "pay": "Pay",
+    "processing": "Processing...",
+    "page": "Page",
+    "checkout": "Checkout",
+    "afterPayment": "After Payment",
+    "portal": "Portal",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "downloadQR": "Download QR",
+    "published": "Published"
+  },
+  "previewPanel": {
+    "publishAndShareTitle": "Publish & Share"
+  },
+  "sharePanel": {
+    "linkAndQR": "Link & QR",
+    "payByText": "Pay by Text",
+    "instruction": "Publish your page to get a shareable link and QR code.",
+    "mainUrlTitle": "Main Page URL",
+    "sessionUrlTitle": "After-Payment Session URL",
+    "payByTextTitle": "Pay by Text Code",
+    "payByTextDescription": "Customers can text this code to your number to receive a link to this payment page."
+  },
+  "nav": {
+    "features": "Features",
+    "useCases": "Use Cases",
+    "solutions": "Solutions",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "global": "Global",
+    "faq": "FAQ",
+    "eventTickets": "Event Tickets",
+    "subscriptions": "Subscriptions & Memberships",
+    "parking": "Parking Sessions"
+  },
+  "landing": {
+    "hero": {
+      "title": "Create a payment page in 60 seconds.",
+      "subtitle": "No code required.",
+      "description": "The all-in-one platform for selling products, subscriptions, tickets, and services with a simple, shareable link.",
+      "cta": "Start Building For Free"
+    },
+    "advantages": {
+      "title": "All the Power, None of the Hassle",
+      "description": "Experience a platform built for flexibility, performance, and user empowerment.",
+      "items": {
+        "flexibility": { "title": "No-Code Flexibility", "description": "Create beautiful, responsive payment pages in minutes without writing a single line of code." },
+        "mobile": { "title": "Mobile Optimization", "description": "Ensure a flawless experience on any device. Pages automatically optimize for fast loading and perfect display on all screen sizes." },
+        "logic": { "title": "Session-Aware Logic", "description": "Go beyond simple payments with smart pages for tickets, parking sessions, and timed access." },
+        "design": { "title": "Custom Designs", "description": "Tailor your landing pages to match your brand, creating a cohesive and memorable user experience with our theme editor." },
+        "performance": { "title": "High Performance", "description": "Our platform generates lean and fast pages, ensuring a quick and pleasant experience for your customers." },
+        "security": { "title": "Security & Privacy", "description": "Built on top of Stripe for world-class security. Your data and your customer's data is always protected." }
+      }
+    },
+    "templates": {
+      "title": "Diverse Page Templates, Infinite Possibilities",
+      "description": "Select a foundation and sculpt it to perfection. Our templates are the starting points for your unique vision."
+    },
+    "interactive": {
+      "title": "Explore Templates & Start Building",
+      "description": "Browse our templates, preview them live, and launch into the editor with a single click. Your monetization page is just moments away."
+    },
+    "testimonials": {
+      "title": "Loved by Creators and Entrepreneurs",
+      "quote": "\"This is a game-changer. I launched my first digital product in an afternoon without touching any code. The sandbox mode let me perfect everything before going live.\"",
+      "author": "- Alex Johnson",
+      "authorRole": "Digital Creator"
+    },
+    "pricing": {
+      "title": "Flexible Pricing for Every Creator",
+      "description": "Choose the path that works for you. Start fast with no commitments, or onboard with Stripe for our lowest rates and full control.",
+      "quickStart": {
+        "title": "Quick Start", "description": "For fast projects & testing", "fee": "0.75% + 15¢", "perTransaction": "per transaction",
+        "features": [ "No Stripe account needed to start", "Payouts via Payoneer / Wise", "Platform handles support & risk", "Transaction limits apply ($1k/txn)" ],
+        "cta": "Get Started"
+      },
+      "stripeConnect": {
+        "title": "Stripe Connect", "recommended": "RECOMMENDED", "description": "For businesses & professionals", "fee": "0.50% + 10¢", "perTransaction": "per transaction",
+        "features": [ "Lowest platform fees", "Your branding on checkout", "You control refunds & disputes", "Unlimited transaction volume" ],
+        "cta": "Start with Stripe"
+      },
+      "footnote": "All options are subject to standard Stripe processing fees, which are handled separately by Stripe."
+    },
+    "global": {
+      "title": "Go Global, Instantly",
+      "description": "Our solution is global-ready out of the box. Accept payments in 135+ currencies, display pages in 34+ languages, and support regional payment methods like Alipay, iDEAL, and Klarna—all powered by Stripe.",
+      "currencies": { "title": "135+ Currencies", "description": "List prices in your customer's native currency to increase sales and avoid confusion. We support everything from USD and EUR to JPY and INR." },
+      "languages": { "title": "34+ Languages", "description": "Checkout pages automatically detect and display in the user's browser language, building trust and improving conversion." },
+      "methods": { "title": "Local Payment Methods", "description": "Offer preferred local payment options like iDEAL in the Netherlands, Bancontact in Belgium, or Pix in Brazil, all through a single integration." }
+    },
+    "faq": {
+      "title": "Got Questions? We've Got Answers.",
+      "items": [
+        { "q": "How do payouts work?", "a": "We offer two flexible options. For a quick start, you can provide your Payoneer or Wise details for manual payouts (higher fees apply). For lower fees and direct payouts, you can onboard with Stripe Connect. This links your own Stripe account to the platform, giving you full control over your funds, refunds, and disputes. You can start with the quick option and upgrade anytime." },
+        { "q": "Do I need a Stripe account to use this?", "a": "Not to get started! You can use our 'Quick Start' option without any Stripe account. To get lower fees and direct payouts, you will need to connect your own Stripe account, which is a simple and secure process within our dashboard." },
+        { "q": "What happens if I don't register an account?", "a": "You can use the app fully in 'Guest Mode' (equivalent to our Quick Start tier with stricter limits). Any pages you create will be stored in your browser's local storage. This is perfect for testing, but to save your work permanently and access full features, you'll need to create a free account." },
+        { "q": "Can I sell physical goods that require shipping?", "a": "Yes. The platform supports collecting shipping addresses. While it's optimized for digital goods and services, you can absolutely use it for physical products." }
+      ]
+    },
+    "footer": {
+      "solutions": "Solutions", "resources": "Resources", "company": "Company", "contact": "Contact Us", "privacy": "Privacy Policy",
+      "terms": "Terms of Service", "productName": "MonetizePro", "productDescription": "Create payment pages with no code. Secure, fast, and flexible.",
+      "copyright": "© {{year}} MonetizePro. All Rights Reserved."
+    }
+  },
+  "solutionEventTickets": {
+    "title": "Solution: Event Tickets", "hero": { "title": "Host events and sell tickets like a pro.", "description": "Create, share, and validate tickets with Stripe checkout and smart session pages. Your attendees get a smooth experience. You keep control. No complex software, no app required.", "cta": "Create a Ticket Page" },
+    "flow": {
+      "title": "A Simple Flow From Creation to Validation",
+      "steps": [
+        { "title": "Create your event ticket page", "description": "Choose your event title, description, price, and ticket limit. Optionally pre-generate unique tickets for invites or physical QR stickers." },
+        { "title": "Share your link or QR code", "description": "Your audience can buy tickets from a mobile-friendly link. Works great via email, WhatsApp, Instagram, or printed QR flyers." },
+        { "title": "Stripe handles payment", "description": "Use Stripe Checkout to process payments securely. Attendees get a confirmation and are redirected to their Ticket Session Page." },
+        { "title": "Validate easily at the door", "description": "Scan the attendee’s QR code or tap “Mark as Used” and the ticket becomes redeemed, preventing re-use with secure status updates." }
+      ]
+    },
+    "features": {
+      "title": "Advanced Features, Simplified",
+      "items": {
+        "preGenerated": { "title": "Pre-generated Tickets", "description": "Create individual ticket codes in advance. Useful for private sales, sponsors, or in-person distribution." },
+        "status": { "title": "Smart Session Status", "description": "Each ticket has a status (draft, paid, redeemed, expired) so you always know its state." },
+        "customFields": { "title": "Custom Fields", "description": "Collect extra info from attendees, like their name or t-shirt size, right at checkout." },
+        "multiChannel": { "title": "Multi-channel Support", "description": "Use your ticket links anywhere. Share via QR, link-in-bio, text, or email." },
+        "testMode": { "title": "Test Mode", "description": "Try the full flow using Stripe test cards before your event goes live." },
+        "validation": { "title": "Secure Entry Validation", "description": "The authenticity-backed QR code ensures each ticket is only used once." }
+      }
+    },
+    "demo": {
+      "title": "See It In Action",
+      "steps": [
+        { "title": "1. Create & Share", "description": "Design your ticket page in minutes." },
+        { "title": "2. Secure Purchase", "description": "Attendees buy tickets through a seamless checkout." },
+        { "title": "3. Validate Entry", "description": "Scan QR codes for instant, secure validation." }
+      ]
+    }
+  },
+  "solutionSubscriptions": {
+    "title": "Solution: Subscriptions", "hero": { "title": "Launch Your Recurring Revenue Business.", "description": "Create flexible subscription plans, accept recurring payments with Stripe, and give your members a portal to manage their accounts. No code, no hassle.", "cta": "Create Subscription Page" },
+    "idealFor": { "title": "Ideal For...", "items": ["SaaS Products", "Content Creators", "Subscription Boxes", "Newsletters", "Membership Sites"] },
+    "flow": {
+      "title": "From Signup to Self-Service", "steps": [
+        { "title": "Design Your Pricing Tiers", "description": "Create multiple plans with different features and billing cycles (monthly/yearly) to cater to various customer segments." },
+        { "title": "Customers Subscribe Securely", "description": "Users choose a plan and subscribe through a secure Stripe-powered checkout, creating a recurring payment schedule automatically." },
+        { "title": "Provide Instant Access", "description": "After subscribing, customers can be redirected to a welcome page, member's area, or a page with instructions to access their benefits." },
+        { "title": "Empower with a Customer Portal", "description": "Give your subscribers a dedicated portal where they can view their payment history, manage their plan, and update their billing details." }
+      ]
+    },
+    "features": {
+      "title": "Powerful Subscription Features", "items": {
+        "multiplePlans": { "title": "Multiple Tiers & Plans", "description": "Offer a variety of plans (e.g., Basic, Pro, Premium) to match customer needs and value." },
+        "billingCycles": { "title": "Flexible Billing Cycles", "description": "Set up monthly or yearly billing to offer discounts for long-term commitments." },
+        "securePayments": { "title": "Secure Recurring Payments", "description": "Stripe handles the complexity of recurring billing, PCI compliance, and dunning." },
+        "customerPortal": { "title": "Self-Service Portal", "description": "Reduce support load by letting customers manage their own subscriptions and billing info." },
+        "promoCodes": { "title": "Promotion Codes", "description": "Boost sign-ups by offering percentage-based or fixed-amount discounts on subscriptions." },
+        "webhookReady": { "title": "Webhook Ready (Simulated)", "description": "Integrate with other services by listening for subscription events like `customer.subscription.created`." }
+      }
+    },
+    "demo": {
+      "title": "See It In Action", "steps": [
+        { "title": "1. Select a Plan", "description": "Customers choose from your tiers." },
+        { "title": "2. Secure Checkout", "description": "Secure payments powered by Stripe." },
+        { "title": "3. Manage Subscription", "description": "Members manage their account in a portal." }
+      ]
+    }
+  },
+  "solutionParking": {
+    "title": "Solution: Parking", "hero": { "title": "Modernize Your Parking Payments.", "description": "Offer a seamless mobile payment experience for any parking lot or garage. Customers pay in seconds via QR code or text message—no app download required.", "cta": "Create a Parking Page" },
+    "flow": {
+      "title": "A Simple Flow for Drivers", "steps": [
+        { "title": "Scan QR or Text Code", "description": "Driver arrives and scans a QR code with their phone or texts a short code (e.g., \"PARK 123\") to your number." },
+        { "title": "Select Duration & Pay", "description": "A mobile page opens. The driver enters their license plate, selects their desired parking duration, and pays securely via Stripe." },
+        { "title": "Session Starts Immediately", "description": "After payment, a session page appears with an active countdown timer, acting as their digital proof of payment." },
+        { "title": "Extend Remotely (Optional)", "description": "If enabled, drivers can receive SMS alerts before their session expires and extend their time from anywhere." }
+      ]
+    },
+    "features": {
+      "title": "Features Built for Parking Operators", "items": {
+        "zoneManagement": { "title": "Zone & Rate Management", "description": "Create different pages for different zones (e.g., Zone A, Lot 3), each with its own set of rates." },
+        "dynamicPricing": { "title": "Dynamic Pricing", "description": "Offer various time-based rates (e.g., 1-hour, 3-hour, All Day) or allow custom duration selection." },
+        "payByText": { "title": "Pay-by-Text Integration", "description": "Link a 5-digit Page ID to your Twilio or other SMS service for text-to-pay functionality." },
+        "serviceFees": { "title": "Service Fees", "description": "Optionally add a fixed service fee to each transaction to cover operational costs." },
+        "dashboard": { "title": "Real-time Admin Dashboard", "description": "View active sessions and payment history from your admin dashboard." },
+        "noApp": { "title": "No App Required", "description": "Reduces friction for drivers, leading to higher compliance and fewer payment issues." }
+      }
+    },
+    "demo": {
+      "title": "See It In Action", "steps": [
+        { "title": "1. Enter Plate & Select Time", "description": "Drivers interact with a simple, clear interface." },
+        { "title": "2. Secure Payment", "description": "Fast and secure payments via Stripe." },
+        { "title": "3. Active Session Timer", "description": "A live countdown acts as digital proof of payment." }
+      ]
+    }
+  },
+  "app": {
+    "loading": "Loading App Data...", "redirectingToCheckout": "Redirecting to Stripe Checkout...",
+    "loginModal": {
+      "title": { "loginRequired": "Login Required", "createToPublish": "Create an Account to Publish", "createToSave": "Create Account to Save", "login": "Login" }
+    },
+    "alerts": {
+      "accessCodeNotFound": "Access code not found.", "verificationCodeNotFound": "Verification code not found.",
+      "confirmTemplateOverwrite": "Applying a new template will replace your current configuration. Are you sure?", "saveSuccess": "Configuration for \"{{pageName}}\" saved!",
+      "sessionFailed": "Failed to create session.", "urlCopied": "URL copied!\\n{{url}}", "publishNeedsSlug": "Page needs a valid slug to be published.",
+      "shareNeedsPublish": "Please publish the page before sharing.", "shareNeedsSlug": "Page needs a valid URL path (slug) to be shared.",
+      "confirmDeletePage": "Are you sure you want to delete this page? This action cannot be undone.", "anchorSuccess": "Simulated anchoring of {{count}} proofs. Check console.",
+      "anchorFailure": "No pending proofs to anchor.",
+      "testEmailSuccess": { "subject": "--- PREVIEW OF TEST EMAIL ---\\n\\nSubject: {{subject}}", "body": "-- Body --\\n{{body}}" },
+      "testEmailFailure": "Could not generate a test email. Check console for errors.", "checkoutNotConfigured": "Product information is incomplete. Please check configuration.",
+      "enterLicensePlate": "Please enter your license plate number.", "selectParkingDuration": "Please select a parking duration. If none are available, check the template configuration.",
+      "enterPhoneNumber": "Please enter your phone number.", "fillRequiredField": "Please fill out the required field: {{fieldName}}", "selectServiceOption": "Please select a service option or ensure the service is correctly configured.",
+      "failedToCopy": "Failed to copy URL."
+    }
+  },
+  "header": { "howItWorks": "How it Works", "dashboard": "Dashboard", "editor": "Editor", "user": "User: {{name}}", "test": "Test", "live": "Live", "logout": "Logout", "login": "Login / Sign Up", "adminDashboard": "Admin Dashboard", "monetizePro": "MonetizePro" },
+  "checkoutModal": { "title": "Confirm: {{pageTitle}}", "cardDetails": "Card Details", "formDisabled": "💳 Payment form is mocked for this demo.", "error": "Error:", "subtotal": "Subtotal:", "discount": "Discount ({{code}}):", "total": "Total:", "cancel": "Cancel", "pay": "Pay {{symbol}}{{amount}}", "processing": "Processing..." },
+  "editorPanel": {
+    "title": { "create": "Create a new Page", "editing": "Editing: {{pageName}}", "untitled": "Untitled Page" },
+    "buttons": { "discard": "Discard", "save": "Save" },
+    "templateSection": { "title": "Template: {{templateName}}", "titleDefault": "Page Type & Template" },
+    "wizard": { "config": "Config", "checkout": "Checkout", "afterPayment": "After Payment", "portal": "Portal", "style": "Style" },
+    "tabs": { "config": { "title": "Page Content & Settings" }, "checkout": { "title": "Checkout & Payment Form" }, "afterPayment": { "titleBehavior": "Choose Behavior After Payment", "titleTemplate": "Choose an 'After Payment' Template", "titleConfigure": "Configure: \"{{templateName}}\"" }, "portal": { "title": "Customer Portal Settings" } },
+    "login": { "title": "Login", "createAccount": "Create Account" }, "logout": "Logout ({{name}})"
+  },
+  "loginModal": { "prompt": "To save your progress or switch to \"Live\" mode, please select a simulated user.", "selectUser": "Select User:" },
+  "adminPage": {
+    "sidebar": { "dashboard": "Dashboard", "pages": "My Pages", "products": "Products", "prices": "Prices", "customers": "Customers", "subscriptions": "Subscriptions", "transactions": "Transactions", "sessions": "Page Sessions", "codes": "Access Codes", "coupons": "Coupons", "taxRates": "Tax Rates", "shippingRates": "Shipping Rates", "payouts": "Payouts & Fees", "emails": "Email Automations", "digitalAssets": "Digital Assets" },
+    "stats": { "totalRevenue": "Total Revenue", "activeSubscriptions": "Active Subscriptions", "totalCustomers": "Total Customers", "totalTransactions": "Total Transactions" },
+    "emptyDashboard": { "title": "Welcome to Your Dashboard!", "description": "Your admin panel is currently empty. You can start creating your own products, customers, and pages, or load some sample data to explore the features.", "cta": "🚀 Load Sample Data" },
+    "anchorButton": "Anchor All Pending Proofs (Simulate)",
+    "payoutsWarning": { "title": "Payout Configuration Pending", "description": "To receive payments, you must set up your payout method.", "cta": "Configure Payouts Now" },
+    "entityTable": { "noData": "No {{title}} found.", "actions": "Actions", "viewEdit": "View / Edit", "createNew": "Create New", "generateCodes": "Generate New Codes", "manageCodes": "Manage Codes", "sendTestEmail": "Send test email" }
+  },
+  "entityEditor": { "editTitle": "Edit {{entityType}}", "createTitle": "Create New {{entityType}}", "generateFake": "🎲 Generate Fake Data", "saveChanges": "Save Changes" },
+  "generateCodesModal": { "title": "Generate Access Codes", "pageLabel": "Generate codes for page:", "noPages": "No pages found. Create a page first.", "quantityLabel": "Quantity to generate:", "cta": "Generate Codes" },
+  "payoutsPage": {
+    "title": "Set Up Your Payouts", "description": "To receive funds from your sales, please choose a payout method. Onboard with Stripe for lower fees and full branding control.",
+    "option1": { "title": "Option 1: Quick Start (Payoneer / Wise)", "description": "Get started quickly. We will handle payouts to your Payoneer, Wise, or bank account via email.", "fee": "Fee: 0.75% + $0.15 per transaction.", "limits": "Limits: $1k/txn, $5k/day, 10 txns/day.", "beneficiary": "Beneficiary Full Name", "payoutEmail": "Payout Email (Payoneer or Wise)", "cta": "Save & Use Quick Start" },
+    "option2": { "title": "Option 2: Onboard with Stripe", "description": "Get lower fees (0.50% + $0.10), use your own branding on checkouts, and enjoy unlimited transaction volume.", "cta": "🚀 Onboard with Stripe" },
+    "savingsCalculator": { "title": "Estimate Your Savings", "description": "See how much you could save with our lower fees by onboarding directly with Stripe Connect.", "volumeLabel": "Estimated Monthly Volume:", "quickStartFees": "Quick Start Fees", "stripeConnectFees": "Stripe Connect Fees", "savings": "Your Monthly Savings", "footnote": "Calculations are estimates based on an average transaction size of ${{avg_txn_size}}." },
+    "activePlatform": { "title": "Quick Start Payouts Active", "description": "Your payouts will be sent via our platform to the details below. Fees are 0.75% + $0.15 per transaction.", "limits": "Limits: $1k/txn, $5k/day, 10 txns/day.", "beneficiaryName": "Beneficiary Name:", "payoutEmail": "Payout Email:", "upgradePrompt": "Want lower fees and more control?", "upgradeDescription": "Upgrade to Stripe Connect to save money on every transaction and get unlimited transaction volume.", "upgradeCta": "Upgrade to Stripe Connect" },
+    "activeStripe": { "title": "Stripe Connect Onboarded!", "description": "Your account is now connected to Stripe. You will now benefit from lower fees (0.50% + $0.10) and direct payouts.", "limits": "You now have unlimited transaction volume.", "accountId": "Your Connected Account ID:", "cta": "View Stripe Dashboard (Simulated)" }
+  },
+  "claimPage": { "title": "Claim Your Access", "prompt": "You have an access code to claim the following item:", "codeLabel": "Access Code:", "cta": "Claim Now" },
+  "verificationPage": {
+    "title": "Authenticity Verification", "prompt": "Details for Access Code:", "itemName": "Item Name", "issuer": "Issuer", "issueDate": "Issue Date",
+    "status": "Verification Status", "sessionId": "Session ID", "cryptoProof": "Cryptographic Proof", "hash": "Authenticity Hash (SHA-256)", "merkleRoot": "Merkle Root (On-Chain)",
+    "viewOnExplorer": "View on Explorer (Simulated)", "proofDescription": "This item's authenticity hash is part of a batch secured by the Merkle Root on a simulated blockchain.",
+    "revokedMessage": "This code has been revoked by the issuer and is no longer valid."
+  },
+  "sessionPage": { "ticketTitle": "Your Ticket for {{eventName}}", "holder": "Ticket Holder: {{name}}", "prompt": "Present this QR code at the event entrance for scanning.", "when": "When:", "where": "Where:", "verify": "Verify Authenticity", "redeem": "Redeem Ticket (Simulate Scan)", "parkingTitle": "Parking Active", "location": "Location:", "plate": "License Plate:", "timeRemaining": "Time Remaining", "expired": "Expired!", "statusTitle": "Session Status", "statusMessage": "This session has a status of: {{status}}", "genericSuccess": "Payment Successful", "genericPrepare": "Your session is being prepared.", "genericActive": "Session Active", "genericActiveMessage": "Your session is currently active.", "redeemedMessage": "This ticket has already been used.", "expiredMessage": "This session has expired.", "cancelledMessage": "This session was cancelled." },
+  "howItWorksPage": {
+    "title": "How It Works",
+    "step1": {
+      "title": "1. Create & Customize Your Page",
+      "description": [
+        "Bring your idea to life in minutes. Start by choosing from dozens of pre-built templates tailored to your specific goal—whether it's selling a product, running a fundraiser, or booking appointments. Our intuitive no-code editor gives you full control.",
+        "- **Customize Everything:** Change text, upload your own logo, and select a theme that perfectly matches your brand identity.",
+        "- **Set Your Price:** Configure one-time payments, recurring subscriptions, or even let your customers name their own price for donations.",
+        "- **Add Custom Fields:** Need to collect a T-shirt size, an attendee's name, or special instructions? Easily add custom fields to your checkout form."
+      ]
+    },
+    "step2": {
+      "title": "2. Get Paid Securely with Stripe",
+      "description": [
+        "Payments are processed through Stripe's world-class, secure infrastructure, giving your customers peace of mind. We don't hold your funds—they go directly to your connected Stripe account.",
+        "- **Global Payments:** Accept payments from anyone, anywhere, in over 135 currencies.",
+        "- **Multiple Methods:** Offer credit cards, Apple Pay, Google Pay, and local payment methods like iDEAL or Bancontact automatically.",
+        "- **Customizable Checkout:** Configure tax collection, shipping rates, and promotion codes to fit your business needs."
+      ]
+    },
+    "step3": {
+      "title": "3. Share Your Link or QR Code",
+      "description": [
+        "Once your page is ready, we generate a unique, shareable link and a scannable QR code. Sharing is the key to reaching your audience.",
+        "- **One Link, Many Places:** Post it on social media, add it to your link-in-bio, send it in an email, or print it on flyers and posters.",
+        "- **Pay by Text:** For ultimate convenience, customers can text a short, unique code to your number to receive a direct link to your payment page.",
+        "- **Mobile First:** Every page is perfectly responsive, ensuring a flawless experience whether your customer is on a desktop or a smartphone."
+      ]
+    },
+    "step4": {
+      "title": "4. Verify with Authenticity Layer (Simulated)",
+      "description": [
+        "For claimable items like tickets or access passes, our platform generates a unique cryptographic proof of authenticity for each purchase. This adds a layer of security and trust for both you and your customers.",
+        "- **Secure & Unique:** Each session gets a unique access code and a corresponding SHA-256 hash.",
+        "- **Publicly Verifiable:** These proofs are batched and anchored to a (simulated) blockchain Merkle Root. Anyone can use the access code to publicly verify the item's authenticity and status.",
+        "- **Prevent Fraud:** The system tracks the status of each item (e.g., 'Paid', 'Redeemed', 'Revoked'), preventing duplicate use and ensuring each code is valid."
+      ]
+    }
+  },
+  "customerPortal": {
+    "subscriptions": "My Subscriptions", "paymentHistory": "Payment History", "details": "My Details", "noSubscriptions": "No subscriptions found.", "noHistory": "No payment history found.",
+    "nextBilling": "Next billing on: {{date}}", "canceledOn": "Canceled on: {{date}}", "updatePaymentMethod": "Update Payment Method", "name": "Name:", "email": "Email:"
+  },
+  "afterPayment": {
+    "parkingActive": { "location": "Location:", "zone": "Zone:", "operator": "Operator:", "plate": "License Plate:", "phone": "Phone:", "duration": "Duration:", "paid": "Amount Paid:", "started": "Started At:", "ends": "Parking Ends:" },
+    "orderConfirmed": { "title": "Order Confirmation", "delivery": "Estimated Delivery:", "total": "Order Total:", "details": "Order Details:" },
+    "subscriptionActive": { "title": "Subscription Active", "subscribedTo": "You are now subscribed to:", "planPrice": "Plan Price:", "paidToday": "Amount Paid Today:", "includes": "Your Plan Includes:", "nextBilling": "Your next billing date is approximately: {{date}}." },
+    "eventTicket": { "prompt": "Present this QR code at the event entrance for scanning.", "details": "Show Event Details:", "holderInfo": "Ticket Holder Information:" },
+    "digitalContent": { "title": "Your Content is Ready", "downloads": "Your Downloads", "nextSteps": "Next Steps:" }
+  },
+    "forms": {
+    "common": { "pageSlug": { "title": "Page URL Path (Slug)", "description": "The unique path for your page URL (e.g., 'my-fundraiser'). Use letters, numbers, and hyphens only." }, "positiveNumericAmount": { "title": "Amount", "description": "Enter a positive numeric amount." }, "tipDetails": { "title": "Tip Details", "description": "Details about the tip.", "properties": { "tipType": { "description": "The type of tip (percentage, custom, or none)." }, "selectedTipPercentage": { "description": "The selected tip percentage." }, "customTipAmount": { "description": "The custom tip amount." } } }, "simpleArrayPlaceholder": "Enter a {{type}}", "selectPlaceholder": "Select {{field}}" },
+    "advancedOptions": { "lineItems": { "title": "Line Items", "description": "Define specific line items." }, "headerImage": { "title": "Header Image URL", "description": "URL for a banner image at the top of the page." }, "pageDescription": { "title": "Page Description (General)", "description": "General description shown on the payment page." }, "limitPayments": { "title": "Limit Number of Payments", "description": "Enable to limit how many times this payment link can be used." }, "maxPayments": { "title": "Max Payments (if limit enabled)", "description": "Total number of successful payments." }, "messageAfterLimit": { "title": "Message After Limit", "description": "Message displayed if payment limit is reached." } },
+    "checkoutConfig": {
+      "currency": { "title": "Currency Code", "default": "USD" }, "submitType": { "title": "Submit Button Label", "description": "Label on the main call-to-action button." },
+      "customFields": { "title": "Custom Checkout Fields", "description": "Define custom fields to collect additional information." }, "billingAddress": { "title": "Collect Billing Address", "description": "'required' always collects the address. 'auto' collects it when necessary." },
+      "shippingAddress": { "title": "Collect Shipping Address", "description": "Enable to collect shipping address." }, "allowedCountries": { "title": "Allowed Shipping Countries (ISO codes)", "description": "e.g., US, CA, GB. Leave empty for all." },
+      "phone": { "title": "Require Phone Number", "description": "Collect customer's phone number at checkout." }, "promoCodes": { "title": "Allow Promotion Codes", "description": "Enable customers to use promotion codes." },
+      "taxId": { "title": "Allow Business Tax ID Collection", "description": "Enable to collect tax IDs from business customers." }, "taxRates": { "title": "Applicable Tax Rates", "description": "Select which pre-configured tax rates apply." },
+      "shippingRates": { "title": "Available Shipping Options", "description": "Select which pre-configured shipping rates are available." }, "autoTax": { "title": "Enable Automatic Tax Collection", "description": "Indicates if Stripe Tax should be used." },
+      "terms": { "title": "Terms of Service Acceptance", "description": "Choose if customers must accept terms of service." }, "termsUrl": { "title": "Terms of Service URL (if required)", "description": "URL to your terms of service document." }, "savePayment": { "title": "Save Payment Details for Future Use", "description": "Attempt to save the customer's payment method." }
+    },
+    "product": { "title": "Edit Product Page Config", "details": { "title": "Additional Details (List of strings)", "description": "Enter each detail as a separate item." } },
+    "fundraising": { "title": "Edit Fundraising Page Config", "campaignTitle": { "title": "Campaign Title" }, "campaignDesc": { "title": "Campaign Description (Specific)" }, "amounts": { "title": "Predefined Amounts (List of numbers)", "description": "Enter each amount as a separate item." }, "whyPoints": { "title": "Why Donate Points (List of strings)", "description": "Enter each point as a separate item." } },
+    "subscription": { "title": "Edit Subscription Page Config", "pageTitle": { "title": "Page Title" }, "pageDesc": { "title": "Page Description" } },
+    "rental": { "title": "Edit Timed Rental Page Config", "pageTitle": { "title": "Page Title" }, "pageDesc": { "title": "Page Description" } },
+    "parking": { "title": "Edit Parking Page Config", "pageTitle": { "title": "Page Title" }, "locationName": { "title": "Location Name" }, "zoneId": { "title": "Zone ID / Number" }, "operator": { "title": "Operator Name (Optional)" }, "address": { "title": "Location Address (Optional)" }, "infoPoints": { "title": "Information Points (List of strings)" } },
+    "restaurant": { "title": "Edit Restaurant Bill Config", "pageTitle": { "title": "Page Title" }, "taxRate": { "title": "Default Tax Rate (e.g., 0.08 for 8%)" }, "tipPercentages": { "title": "Tip Percentages (List of numbers, e.g., 0.1, 0.15)" } },
+    "tips": { "title": "Edit Tips Page Config", "pageTitle": { "title": "Page Title" }, "amounts": { "title": "Predefined Tip Amounts" }, "whyText": { "title": "Text about why to tip" } },
+    "event": { "title": "Edit Event Ticket Sales Config", "eventTitle": { "title": "Event Title" }, "eventDesc": { "title": "Event Description" }, "date": { "title": "Event Date (YYYY-MM-DD)" }, "time": { "title": "Event Time (HH:MM, 24-hr)" }, "location": { "title": "Event Location" }, "organizer": { "title": "Organizer Name (Optional)" }, "contact": { "title": "Contact Email (Optional)" } },
+    "appointment": { "title": "Edit Appointment Booking Config", "serviceTitle": { "title": "Service Title" }, "serviceDesc": { "title": "Service Description" }, "provider": { "title": "Provider Name (Optional)" }, "contact": { "title": "Contact Info (Optional)" }, "availability": { "title": "Availability/Scheduling Notes (Optional)" } },
+    "digital": { "title": "Edit Digital Content Access Config", "contentTitle": { "title": "Content Title" }, "contentDesc": { "title": "Content Description" }, "assetId": { "title": "Link to Digital Asset", "description": "Select a previously uploaded asset from your library." }, "instructions": { "title": "Access Instructions (Post-Payment)", "description": "e.g., 'Download link will be shown after successful payment.'" }, "creator": { "title": "Creator Name (Optional)" } },
+    "invoice": { "title": "Edit Simple Invoice Config", "requestTitle": { "title": "Request Title / Invoice For" }, "yourName": { "title": "Your Name / Business Name (Optional)" }, "clientName": { "title": "Client Name (Optional)" }, "itemDesc": { "title": "Description of Service/Item" }, "dueDate": { "title": "Due Date (YYYY-MM-DD, Optional)" }, "notes": { "title": "Additional Notes (Optional)" }, "invoiceNumber": { "title": "Invoice Number (Optional)" } },
+    "admin": {
+      "product": { "title": "Producto", "active": "Activo", "name": "Nombre", "description": "Descripción", "images": "URLs de Imagen", "metadata": "Metadatos (JSON)" },
+      "price": { "title": "Precio", "product": "ID de Producto", "active": "Activo", "amount": "Monto Unitario (céntimos)", "currency": "Moneda", "type": "Tipo", "recurring": "Detalles Recurrentes", "interval": "Intervalo", "intervalCount": "Conteo de Intervalos" },
+      "coupon": { "title": "Cupón", "code": "Código de Cupón (ID)", "codeDesc": "El código que los clientes ingresan.", "name": "Nombre Interno (Opcional)", "percent": "Porcentaje de Descuento (%)", "amount": "Monto de Descuento (céntimos)", "currency": "Moneda (si es Monto)", "active": "Activo" },
+      "tax": { "title": "Tasa de Impuesto", "name": "Nombre para Mostrar", "percent": "Porcentaje", "inclusive": "Inclusivo", "desc": "Descripción (Opcional)", "jurisdiction": "Jurisdicción (Opcional)", "country": "País (Opcional, ISO 2 letras)", "state": "Estado (Opcional, ISO 2 letras para EE. UU.)", "active": "Activo" },
+      "shipping": { "title": "Tarifa de Envío", "name": "Nombre para Mostrar", "active": "Activo", "amount": "Monto (céntimos)", "currency": "Moneda", "minVal": "Estimación Mín. Entrega (Valor)", "minUnit": "Estimación Mín. Entrega (Unidad)", "maxVal": "Estimación Máx. Entrega (Valor)", "maxUnit": "Estimación Máx. Entrega (Unidad)" },
+      "customer": { "title": "Cliente", "name": "Nombre", "email": "Email", "phone": "Teléfono (Opcional)" },
+      "subscription": { "title": "Suscripción", "customer": "ID de Cliente", "status": "Estado", "items": "Artículos", "priceId": "ID de Precio" },
+      "transaction": { "title": "Transacción", "customer": "ID de Cliente (Opcional)", "amount": "Monto (céntimos)", "currency": "Moneda", "status": "Estado", "desc": "Descripción", "pageId": "ID de Página de Monetización (Opcional)" },
+      "email": { "title": "Plantilla de Correo", "enabled": "Habilitar esta Automatización de Correo", "name": "Nombre Interno", "triggerPage": "Página de Activación", "triggerPageDesc": "¿Qué página debería activar este correo?", "triggerStatus": "Estado de Activación", "triggerStatusDesc": "Enviar este correo cuando el estado de una

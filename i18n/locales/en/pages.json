@@ -1,0 +1,78 @@
+
+{
+  "claimPage": {
+    "title": "Claim Your Access",
+    "prompt": "You have an access code to claim the following item:",
+    "codeLabel": "Access Code:",
+    "cta": "Claim Now"
+  },
+  "verificationPage": {
+    "title": "Authenticity Verification",
+    "prompt": "Details for Access Code:",
+    "itemName": "Item Name",
+    "issuer": "Issuer",
+    "issueDate": "Issue Date",
+    "status": "Verification Status",
+    "sessionId": "Session ID",
+    "cryptoProof": "Cryptographic Proof",
+    "hash": "Authenticity Hash (SHA-256)",
+    "merkleRoot": "Merkle Root (On-Chain)",
+    "viewOnExplorer": "View on Explorer (Simulated)",
+    "proofDescription": "This item's authenticity hash is part of a batch secured by the Merkle Root on a simulated blockchain.",
+    "revokedMessage": "This code has been revoked by the issuer and is no longer valid."
+  },
+  "sessionPage": {
+    "ticketTitle": "Your Ticket for {{eventName}}",
+    "holder": "Ticket Holder: {{name}}",
+    "prompt": "Present this QR code at the event entrance for scanning.",
+    "when": "When:",
+    "where": "Where:",
+    "verify": "Verify Authenticity",
+    "redeem": "Redeem Ticket (Simulate Scan)",
+    "parkingTitle": "Parking Active",
+    "location": "Location:",
+    "plate": "License Plate:",
+    "timeRemaining": "Time Remaining",
+    "expired": "Expired!",
+    "statusTitle": "Session Status",
+    "statusMessage": "This session has a status of: {{status}}",
+    "genericSuccess": "Payment Successful",
+    "genericPrepare": "Your session is being prepared.",
+    "genericActive": "Session Active",
+    "genericActiveMessage": "Your session is currently active.",
+    "redeemedMessage": "This ticket has already been used.",
+    "expiredMessage": "This session has expired.",
+    "cancelledMessage": "This session was cancelled."
+  },
+  "customerPortal": {
+    "subscriptions": "My Subscriptions",
+    "paymentHistory": "Payment History",
+    "details": "My Details",
+    "noSubscriptions": "No subscriptions found.",
+    "noHistory": "No payment history found.",
+    "nextBilling": "Next billing on: {{date}}",
+    "canceledOn": "Canceled on: {{date}}",
+    "updatePaymentMethod": "Update Payment Method",
+    "name": "Name:",
+    "email": "Email:"
+  },
+  "afterPayment": {
+    "parkingActive": {
+      "location": "Location:", "zone": "Zone:", "operator": "Operator:", "plate": "License Plate:", "phone": "Phone:",
+      "duration": "Duration:", "paid": "Amount Paid:", "started": "Started At:", "ends": "Parking Ends:"
+    },
+    "orderConfirmed": {
+      "title": "Order Confirmation", "delivery": "Estimated Delivery:", "total": "Order Total:", "details": "Order Details:"
+    },
+    "subscriptionActive": {
+      "title": "Subscription Active", "subscribedTo": "You are now subscribed to:", "planPrice": "Plan Price:",
+      "paidToday": "Amount Paid Today:", "includes": "Your Plan Includes:", "nextBilling": "Your next billing date is approximately: {{date}}."
+    },
+    "eventTicket": {
+      "prompt": "Present this QR code at the event entrance for scanning.", "details": "Show Event Details:", "holderInfo": "Ticket Holder Information:"
+    },
+    "digitalContent": {
+      "title": "Your Content is Ready", "downloads": "Your Downloads", "nextSteps": "Next Steps:"
+    }
+  }
+}

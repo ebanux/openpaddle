@@ -1,0 +1,85 @@
+
+{
+  "nav": {
+    "features": "Características",
+    "useCases": "Casos de Uso",
+    "solutions": "Soluciones",
+    "howItWorks": "Cómo Funciona",
+    "pricing": "Precios",
+    "global": "Global",
+    "faq": "FAQ",
+    "eventTickets": "Entradas para Eventos",
+    "subscriptions": "Suscripciones y Membresías",
+    "parking": "Sesiones de Estacionamiento"
+  },
+  "landing": {
+    "hero": {
+      "title": "Crea una página de pago en 60 segundos.",
+      "subtitle": "Sin necesidad de código.",
+      "description": "La plataforma todo en uno para vender productos, suscripciones, entradas y servicios con un enlace simple y compartible.",
+      "cta": "Comienza a Construir Gratis"
+    },
+    "advantages": {
+      "title": "Todo el Poder, Sin Complicaciones",
+      "description": "Experimenta una plataforma creada para la flexibilidad, el rendimiento y el empoderamiento del usuario.",
+      "items": {
+        "flexibility": { "title": "Flexibilidad Sin Código", "description": "Crea páginas de pago atractivas y responsivas en minutos sin escribir una sola línea de código." },
+        "mobile": { "title": "Optimización Móvil", "description": "Asegura una experiencia impecable en cualquier dispositivo. Las páginas se optimizan automáticamente para una carga rápida y una visualización perfecta." },
+        "logic": { "title": "Lógica Consciente de la Sesión", "description": "Ve más allá de los pagos simples con páginas inteligentes para entradas, sesiones de estacionamiento y acceso cronometrado." },
+        "design": { "title": "Diseños Personalizados", "description": "Adapta tus páginas de destino a tu marca, creando una experiencia de usuario cohesiva y memorable con nuestro editor de temas." },
+        "performance": { "title": "Alto Rendimiento", "description": "Nuestra plataforma genera páginas ligeras y rápidas, asegurando una experiencia rápida y agradable para tus clientes." },
+        "security": { "title": "Seguridad y Privacidad", "description": "Construido sobre Stripe para una seguridad de clase mundial. Tus datos y los de tus clientes siempre están protegidos." }
+      }
+    },
+    "templates": {
+      "title": "Diversas Plantillas de Página, Infinitas Posibilidades",
+      "description": "Selecciona una base y escúlpela a la perfección. Nuestras plantillas son el punto de partida para tu visión única."
+    },
+    "interactive": {
+      "title": "Explora Plantillas y Comienza a Construir",
+      "description": "Navega por nuestras plantillas, previsualízalas en vivo y lánzate al editor con un solo clic. Tu página de monetización está a solo unos momentos."
+    },
+    "testimonials": {
+      "title": "Amado por Creadores y Emprendedores",
+      "quote": "\"Esto es un cambio de juego. Lancé mi primer producto digital en una tarde sin tocar ningún código. El modo de prueba me permitió perfeccionar todo antes de lanzarlo.\"",
+      "author": "- Alex Johnson",
+      "authorRole": "Creador Digital"
+    },
+    "pricing": {
+      "title": "Precios Flexibles para Cada Creador",
+      "description": "Elige el camino que funcione para ti. Comienza rápido sin compromisos, o intégrate con Stripe para nuestras tarifas más bajas y control total.",
+      "quickStart": {
+        "title": "Inicio Rápido", "description": "Para proyectos rápidos y pruebas", "fee": "0.75% + 15¢", "perTransaction": "por transacción",
+        "features": [ "No se necesita cuenta de Stripe para empezar", "Pagos a través de Payoneer / Wise", "La plataforma gestiona el soporte y el riesgo", "Se aplican límites de transacción ($1k/trans.)" ],
+        "cta": "Empezar"
+      },
+      "stripeConnect": {
+        "title": "Stripe Connect", "recommended": "RECOMENDADO", "description": "Para negocios y profesionales", "fee": "0.50% + 10¢", "perTransaction": "por transacción",
+        "features": [ "Tarifas de plataforma más bajas", "Tu marca en el checkout", "Tú controlas los reembolsos y disputas", "Volumen de transacciones ilimitado" ],
+        "cta": "Empezar con Stripe"
+      },
+      "footnote": "Todas las opciones están sujetas a las tarifas de procesamiento estándar de Stripe, que son gestionadas por separado por Stripe."
+    },
+    "global": {
+      "title": "Globalízate, al Instante",
+      "description": "Nuestra solución está lista para el mundo desde el primer momento. Acepta pagos en más de 135 monedas, muestra páginas en más de 34 idiomas y admite métodos de pago regionales como Alipay, iDEAL y Klarna, todo con el poder de Stripe.",
+      "currencies": { "title": "Más de 135 Monedas", "description": "Muestra los precios en la moneda nativa de tu cliente para aumentar las ventas y evitar confusiones. Admitimos todo, desde USD y EUR hasta JPY e INR." },
+      "languages": { "title": "Más de 34 Idiomas", "description": "Las páginas de checkout detectan y se muestran automáticamente en el idioma del navegador del usuario, generando confianza y mejorando la conversión." },
+      "methods": { "title": "Métodos de Pago Locales", "description": "Ofrece opciones de pago locales preferidas como iDEAL en los Países Bajos, Bancontact en Bélgica o Pix en Brasil, todo a través de una única integración." }
+    },
+    "faq": {
+      "title": "¿Tienes Preguntas? Tenemos Respuestas.",
+      "items": [
+        { "q": "¿Cómo funcionan los pagos?", "a": "Ofrecemos dos opciones flexibles. Para un inicio rápido, puedes proporcionar tus datos de Payoneer o Wise para pagos manuales (se aplican tarifas más altas). Para tarifas más bajas y pagos directos, puedes integrarte con Stripe Connect. Esto vincula tu propia cuenta de Stripe a la plataforma, dándote control total sobre tus fondos, reembolsos y disputas. Puedes empezar con la opción rápida y actualizar en cualquier momento." },
+        { "q": "¿Necesito una cuenta de Stripe para usar esto?", "a": "¡No para empezar! Puedes usar nuestra opción de 'Inicio Rápido' sin ninguna cuenta de Stripe. Para obtener tarifas más bajas y pagos directos, necesitarás conectar tu propia cuenta de Stripe, lo cual es un proceso simple y seguro dentro de nuestro panel." },
+        { "q": "¿Qué pasa si no registro una cuenta?", "a": "Puedes usar la aplicación completamente en 'Modo Invitado' (equivalente a nuestro nivel de Inicio Rápido con límites más estrictos). Cualquier página que crees se guardará en el almacenamiento local de tu navegador. Esto es perfecto para probar, pero para guardar tu trabajo permanentemente y acceder a todas las funciones, necesitarás crear una cuenta gratuita." },
+        { "q": "¿Puedo vender bienes físicos que requieren envío?", "a": "Sí. La plataforma admite la recopilación de direcciones de envío. Aunque está optimizada para bienes y servicios digitales, puedes usarla absolutamente para productos físicos." }
+      ]
+    },
+    "footer": {
+      "solutions": "Soluciones", "resources": "Recursos", "company": "Compañía", "contact": "Contáctanos", "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio", "productName": "MonetizePro", "productDescription": "Crea páginas de pago sin código. Seguro, rápido y flexible.",
+      "copyright": "© {{year}} MonetizePro. Todos los derechos reservados."
+    }
+  }
+}
