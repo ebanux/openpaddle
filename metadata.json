@@ -1,6 +1,6 @@
 {
-  "name": "Monetization Showcase",
-  "description": "A no-code platform to create and share monetization pages for any use case, from product sales and subscriptions to event tickets and donations. Built with React and Stripe.",
+  "name": "OpenPaddle",
+  "description": "A landing page for OpenPaddle, a community-designed, transparently-built pickleball paddle project. The goal is to make great gear accessible without inflated margins, proving open-source principles can work for physical products.",
   "requestFramePermissions": [],
   "prompt": ""
 }
